@@ -17,8 +17,8 @@
 }
 
 .home-title {
-  font-family: var(--font-display);
-  font-size: 3rem;
+  font-family: var(--font-script);
+  font-size: 4rem;
   font-weight: 600;
   color: var(--color-charcoal);
   margin-bottom: var(--spacing-md);
@@ -91,7 +91,7 @@
 
 @media (min-width: 768px) {
   .home-title {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   
   .home-subtitle {
