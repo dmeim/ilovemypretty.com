@@ -1,8 +1,29 @@
+import { useMemo } from 'react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import './Layout.css'
 
+// All heart emoji colors
+const heartEmojis = ['🤍', '❤️', '🧡', '💛', '💚', '💙', '💜', '🖤', '🤎', '🩷', '🩵', '🩶']
+
+// Configuration - just change this number!
+const HEART_COUNT = 24
+
 function Layout() {
   const location = useLocation()
+  
+  // Generate random hearts with random styles once on mount
+  const hearts = useMemo(() => 
+    [...Array(HEART_COUNT)].map(() => ({
+      emoji: heartEmojis[Math.floor(Math.random() * heartEmojis.length)],
+      style: {
+        left: `${Math.random() * 95}%`,
+        fontSize: `${0.9 + Math.random() * 0.8}rem`,
+        animationDuration: `${13 + Math.random() * 10}s`,
+        animationDelay: `${Math.random() * 15}s`,
+      }
+    })),
+    []
+  )
   
   // Navigation items - letters and memories are hidden for now
   const navItems = [
@@ -17,9 +38,9 @@ function Layout() {
     <div className="layout">
       {/* Floating hearts background animation */}
       <div className="floating-hearts-bg">
-        {[...Array(12)].map((_, i) => (
-          <span key={i} className="floating-heart">
-            🤍
+        {hearts.map((heart, i) => (
+          <span key={i} className="floating-heart" style={heart.style}>
+            {heart.emoji}
           </span>
         ))}
       </div>
