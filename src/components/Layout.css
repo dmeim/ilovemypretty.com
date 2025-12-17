@@ -1,9 +1,9 @@
 .layout {
-  min-height: 100vh;
+  flex: 1;
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Floating hearts background - covers full layout */
@@ -11,12 +11,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  height: 100dvh; /* Dynamic viewport height for mobile */
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   pointer-events: none;
   z-index: 1;
+  contain: strict;
 }
 
 .floating-heart {
@@ -24,6 +24,7 @@
   opacity: 0;
   animation: floatUp ease-in-out infinite;
   will-change: transform, opacity;
+  contain: layout style;
 }
 
 .header {
@@ -98,6 +99,7 @@
   padding: var(--spacing-lg) 0;
   position: relative;
   z-index: 2;
+  overflow-x: hidden;
 }
 
 .footer {
