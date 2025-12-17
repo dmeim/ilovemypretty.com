@@ -1,0 +1,125 @@
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  text-align: center;
+}
+
+.home-hero {
+  position: relative;
+  padding: var(--spacing-xl) 0;
+}
+
+.home-hearts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.floating-heart {
+  position: absolute;
+  font-size: 1.5rem;
+  opacity: 0.3;
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating-heart:nth-child(1) { left: 10%; top: 20%; }
+.floating-heart:nth-child(2) { left: 80%; top: 10%; }
+.floating-heart:nth-child(3) { left: 25%; top: 60%; }
+.floating-heart:nth-child(4) { left: 70%; top: 50%; }
+.floating-heart:nth-child(5) { left: 5%; top: 80%; }
+.floating-heart:nth-child(6) { left: 90%; top: 70%; }
+
+.home-title {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  margin-bottom: var(--spacing-md);
+  position: relative;
+  z-index: 1;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-warm-gray);
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+}
+
+.home-message {
+  margin: var(--spacing-xl) 0;
+}
+
+.home-card {
+  background: white;
+  border-radius: 20px;
+  padding: var(--spacing-xl);
+  box-shadow: 0 10px 40px rgba(200, 139, 159, 0.15);
+  border: 1px solid rgba(200, 139, 159, 0.1);
+  text-align: left;
+  line-height: 1.9;
+}
+
+.home-card p {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.1rem;
+  color: var(--color-charcoal);
+}
+
+.home-card p:last-child {
+  margin-bottom: 0;
+}
+
+.home-signature {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2rem !important;
+  color: var(--color-dusty-rose) !important;
+  text-align: right;
+  margin-top: var(--spacing-lg) !important;
+}
+
+.home-actions {
+  margin-top: var(--spacing-xl);
+}
+
+.home-button {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--color-blush), var(--color-rose));
+  color: white;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(255, 182, 193, 0.4);
+  transition: all var(--transition-normal);
+}
+
+.home-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 182, 193, 0.5);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .home-title {
+    font-size: 4rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .floating-heart {
+    font-size: 2rem;
+  }
+}
+

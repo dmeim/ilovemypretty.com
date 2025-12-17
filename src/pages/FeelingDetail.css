@@ -1,0 +1,124 @@
+.feeling-detail {
+  --page-bg: var(--color-cream);
+  --page-text: var(--color-charcoal);
+  --page-accent: var(--color-blush);
+  
+  min-height: 100%;
+  background: var(--page-bg);
+}
+
+.feeling-detail-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md) var(--spacing-xl);
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--color-warm-gray);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-lg);
+  transition: color var(--transition-fast);
+}
+
+.back-link:hover {
+  color: var(--page-accent);
+}
+
+.feeling-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.feeling-title {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--page-text);
+  position: relative;
+  display: inline-block;
+}
+
+.feeling-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--page-accent);
+  border-radius: 2px;
+}
+
+.feeling-section {
+  background: white;
+  border-radius: 20px;
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  animation: fadeIn var(--transition-slow) ease forwards;
+}
+
+.feeling-section:nth-child(3) {
+  animation-delay: 100ms;
+}
+
+.feeling-section:nth-child(4) {
+  animation-delay: 200ms;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--page-accent);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.section-content {
+  color: var(--page-text);
+}
+
+.verses-content blockquote {
+  background: linear-gradient(135deg, rgba(255, 182, 193, 0.1), rgba(212, 197, 226, 0.1));
+  border-left-color: var(--page-accent);
+}
+
+.feeling-footer {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-warm-gray);
+}
+
+/* Loading and Error states */
+.loading-container,
+.error-container {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--color-warm-gray);
+}
+
+.error-container .back-link {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .feeling-detail-container {
+    padding: 0 var(--spacing-lg) var(--spacing-xl);
+  }
+  
+  .feeling-title {
+    font-size: 4rem;
+  }
+  
+  .feeling-section {
+    padding: var(--spacing-xl);
+  }
+}
+

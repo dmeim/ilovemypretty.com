@@ -1,0 +1,11 @@
+{
+  "title": "Worried",
+  "message": "message.md",
+  "verses": "verses.md",
+  "theming": {
+    "backgroundColor": "#F5EEF8",
+    "textColor": "#4A3F55",
+    "accentColor": "#9B7BB8"
+  }
+}
+

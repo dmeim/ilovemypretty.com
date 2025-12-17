@@ -1,0 +1,89 @@
+import { useState, useEffect } from 'react'
+import { useParams, Link } from 'react-router-dom'
+import MarkdownRenderer from '../components/MarkdownRenderer'
+import { loadContent } from '../utils/contentLoader'
+import './FeelingDetail.css'
+
+function FeelingDetail() {
+  const { emotion } = useParams()
+  const [content, setContent] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    async function load() {
+      try {
+        setLoading(true)
+        const data = await loadContent('feelings', emotion)
+        setContent(data)
+      } catch (err) {
+        console.error('Failed to load feeling:', err)
+        setError('Could not load this feeling. Please try again.')
+      } finally {
+        setLoading(false)
+      }
+    }
+    
+    load()
+  }, [emotion])
+
+  if (loading) {
+    return (
+      <div className="loading-container">
+        <p>Loading...</p>
+      </div>
+    )
+  }
+
+  if (error || !content) {
+    return (
+      <div className="error-container">
+        <p>{error || 'Something went wrong'}</p>
+        <Link to="/feeling" className="back-link">← Back to feelings</Link>
+      </div>
+    )
+  }
+
+  const pageStyle = content.theming ? {
+    '--page-bg': content.theming.backgroundColor,
+    '--page-text': content.theming.textColor,
+    '--page-accent': content.theming.accentColor,
+  } : {}
+
+  return (
+    <div className="feeling-detail" style={pageStyle}>
+      <div className="feeling-detail-container">
+        <Link to="/feeling" className="back-link">← Back to feelings</Link>
+        
+        <header className="feeling-header">
+          <h1 className="feeling-title">{content.title}</h1>
+        </header>
+
+        {content.messageContent && (
+          <section className="feeling-section feeling-message">
+            <h2 className="section-title">A Message For You</h2>
+            <div className="section-content">
+              <MarkdownRenderer content={content.messageContent} />
+            </div>
+          </section>
+        )}
+
+        {content.versesContent && (
+          <section className="feeling-section feeling-verses">
+            <h2 className="section-title">From Scripture</h2>
+            <div className="section-content verses-content">
+              <MarkdownRenderer content={content.versesContent} />
+            </div>
+          </section>
+        )}
+        
+        <footer className="feeling-footer">
+          <p>I love you 🤍</p>
+        </footer>
+      </div>
+    </div>
+  )
+}
+
+export default FeelingDetail
+

@@ -1,0 +1,78 @@
+.memory-detail {
+  min-height: 100%;
+}
+
+.memory-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md) var(--spacing-xl);
+}
+
+.memory-detail .back-link {
+  display: inline-block;
+  color: var(--color-warm-gray);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-lg);
+  transition: color var(--transition-fast);
+}
+
+.memory-detail .back-link:hover {
+  color: var(--color-dusty-rose);
+}
+
+.memory-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  animation: fadeIn var(--transition-slow) ease forwards;
+}
+
+.memory-header {
+  background: linear-gradient(135deg, var(--color-blush), var(--color-lavender));
+  padding: var(--spacing-xl);
+  text-align: center;
+}
+
+.memory-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: white;
+  margin-bottom: var(--spacing-sm);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.memory-date {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.memory-content {
+  padding: var(--spacing-xl);
+}
+
+/* Override markdown styles for memory images */
+.memory-content .markdown-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin: var(--spacing-md) 0;
+}
+
+@media (min-width: 768px) {
+  .memory-detail-container {
+    padding: 0 var(--spacing-lg) var(--spacing-xl);
+  }
+  
+  .memory-header {
+    padding: var(--spacing-xl) calc(var(--spacing-xl) * 2);
+  }
+  
+  .memory-title {
+    font-size: 2.5rem;
+  }
+  
+  .memory-content {
+    padding: var(--spacing-xl) calc(var(--spacing-xl) * 1.5);
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "title": "Happy",
+  "message": "message.md",
+  "verses": "verses.md",
+  "theming": {
+    "backgroundColor": "#FFF9E6",
+    "textColor": "#5D4E37",
+    "accentColor": "#FFD700"
+  }
+}
+

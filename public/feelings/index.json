@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "happy",
+      "title": "Happy",
+      "subtitle": "Celebrate the joy",
+      "theming": {
+        "backgroundColor": "#FFF9E6",
+        "textColor": "#5D4E37",
+        "accentColor": "#FFD700"
+      }
+    },
+    {
+      "id": "sad",
+      "title": "Sad",
+      "subtitle": "It's okay to feel this way",
+      "theming": {
+        "backgroundColor": "#E8EEF2",
+        "textColor": "#3D4A5C",
+        "accentColor": "#7BA3C4"
+      }
+    },
+    {
+      "id": "worried",
+      "title": "Worried",
+      "subtitle": "Find peace in uncertainty",
+      "theming": {
+        "backgroundColor": "#F5EEF8",
+        "textColor": "#4A3F55",
+        "accentColor": "#9B7BB8"
+      }
+    }
+  ]
+}
+
