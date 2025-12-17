@@ -6,7 +6,7 @@ import './Layout.css'
 const heartEmojis = ['🤍', '❤️', '🧡', '💛', '💚', '💙', '💜', '🖤', '🤎', '🩷', '🩵', '🩶']
 
 // Configuration - just change this number!
-const HEART_COUNT = 24
+const HEART_COUNT = 30
 
 function Layout() {
   const location = useLocation()
@@ -17,9 +17,10 @@ function Layout() {
       emoji: heartEmojis[Math.floor(Math.random() * heartEmojis.length)],
       style: {
         left: `${Math.random() * 95}%`,
+        top: `${20 + Math.random() * 80}%`, // Spawn between 20% and 100% from top
         fontSize: `${0.9 + Math.random() * 0.8}rem`,
         animationDuration: `${13 + Math.random() * 10}s`,
-        animationDelay: `${Math.random() * 15}s`,
+        animationDelay: `${Math.random() * 2}s`, // Shorter initial delay since they're already visible
       }
     })),
     []

@@ -7,7 +7,13 @@
 
 .home-hero {
   position: relative;
-  padding: var(--spacing-xl) 0;
+  padding: var(--spacing-lg);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(200, 139, 159, 0.1);
+  border: 1px solid rgba(200, 139, 159, 0.08);
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .home-title {
@@ -29,18 +35,20 @@
 }
 
 .home-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 20px;
-  padding: var(--spacing-xl);
-  box-shadow: 0 10px 40px rgba(200, 139, 159, 0.15);
+  padding: var(--spacing-lg);
+  box-shadow: 0 0px 40px rgba(200, 139, 159, 0.25);
   border: 1px solid rgba(200, 139, 159, 0.1);
   text-align: left;
-  line-height: 1.9;
+  line-height: 2;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .home-card p {
   margin-bottom: var(--spacing-md);
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--color-charcoal);
 }
 

@@ -19,7 +19,6 @@
 
 .floating-heart {
   position: absolute;
-  bottom: 0;
   opacity: 0;
   animation: floatUp ease-in-out infinite;
   will-change: transform, opacity;
