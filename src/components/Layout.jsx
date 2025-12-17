@@ -17,7 +17,7 @@ function Layout() {
       emoji: heartEmojis[Math.floor(Math.random() * heartEmojis.length)],
       style: {
         left: `${Math.random() * 95}%`,
-        top: `${20 + Math.random() * 80}%`, // Spawn between 20% and 100% from top
+        top: `${10 + Math.random() * 70}%`, // Spawn between 10% and 80% from top
         fontSize: `${0.9 + Math.random() * 0.8}rem`,
         animationDuration: `${13 + Math.random() * 10}s`,
         animationDelay: `${Math.random() * 2}s`, // Shorter initial delay since they're already visible
