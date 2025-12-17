@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import MarkdownRenderer from '../components/MarkdownRenderer'
-import { loadContent } from '../utils/contentLoader'
+import { loadContent, fetchIndex } from '../utils/contentLoader'
 import './FeelingDetail.css'
 
 function FeelingDetail() {
@@ -14,8 +14,20 @@ function FeelingDetail() {
     async function load() {
       try {
         setLoading(true)
-        const data = await loadContent('feelings', emotion)
-        setContent(data)
+        // Fetch both index (for title) and config (for page content)
+        const [indexItems, pageContent] = await Promise.all([
+          fetchIndex('feelings'),
+          loadContent('feelings', emotion)
+        ])
+        
+        // Find the matching feeling in the index to get the title
+        const indexEntry = indexItems.find(item => item.id === emotion)
+        
+        // Merge: title from index, everything else from config
+        setContent({
+          ...pageContent,
+          title: indexEntry?.title || emotion
+        })
       } catch (err) {
         console.error('Failed to load feeling:', err)
         setError('Could not load this feeling. Please try again.')

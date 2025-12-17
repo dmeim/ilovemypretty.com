@@ -1,5 +1,7 @@
 .letter-detail {
   min-height: 100%;
+  margin: calc(var(--spacing-lg) * -1) 0;
+  padding: var(--spacing-lg) 0;
 }
 
 .letter-detail-container {

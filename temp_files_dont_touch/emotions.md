@@ -1,50 +1,64 @@
+## Joy & Contentment
 Happy
 Joyful
 Peaceful
 Calm
 Grateful
 Loved
+Thankful
+
+## Hope & Inspiration
 Hopeful
-Content
 Excited
 Inspired
-Sad
-Lonely
-Tired
-Overwhelmed
-Anxious
-Worried
-Stressed
-Discouraged
-Frustrated
-Disappointed
-Angry
-Hurt
-Confused
-Doubtful
-Afraid
-Insecure
-Jealous
-Guilty
-Ashamed
-Regretful
-Broken
-Heavy-hearted
-Numb
-Restless
-Burned out
-Drained
-Lost
-Hopeless
-Fearful
-Weak
 Encouraged
-Relieved
-Comforted
-Reassured
+Renewed
+
+## Courage & Trust
 Brave
 Trusting
 Patient
 Faithful
-Thankful
-Renewed
+Relieved
+
+## Sadness & Loneliness
+Sad
+Lonely
+Heavy-hearted
+Broken
+
+## Anxiety & Fear
+Anxious
+Worried
+Stressed
+Afraid
+Fearful
+Insecure
+
+## Frustration & Anger
+Frustrated
+Disappointed
+Angry
+Hurt
+Discouraged
+
+## Confusion & Doubt
+Confused
+Doubtful
+Lost
+
+## Guilt & Shame
+Guilty
+Ashamed
+Regretful
+Jealous
+
+## Exhaustion & Burnout
+Tired
+Overwhelmed
+Burned out
+Drained
+Numb
+Weak
+Restless
+Hopeless

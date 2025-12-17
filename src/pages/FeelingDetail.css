@@ -5,6 +5,8 @@
   
   min-height: 100%;
   background: var(--page-bg);
+  margin: calc(var(--spacing-lg) * -1) 0;
+  padding: var(--spacing-lg) 0;
 }
 
 .feeling-detail-container {
