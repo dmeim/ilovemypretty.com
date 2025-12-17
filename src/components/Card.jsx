@@ -12,7 +12,7 @@ function Card({ to, title, subtitle, theming, delay = 0 }) {
   }
 
   return (
-    <Link to={to} className="card fade-in" style={cardStyle}>
+    <Link to={to} className="card" style={cardStyle}>
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
         {subtitle && <p className="card-subtitle">{subtitle}</p>}
