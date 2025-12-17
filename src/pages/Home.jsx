@@ -5,14 +5,6 @@ function Home() {
   return (
     <div className="home">
       <div className="home-hero">
-        <div className="home-hearts">
-          {[...Array(6)].map((_, i) => (
-            <span key={i} className="floating-heart" style={{ animationDelay: `${i * 0.5}s` }}>
-              🤍
-            </span>
-          ))}
-        </div>
-        
         <h1 className="home-title">
           My Pretty 🤍
         </h1>

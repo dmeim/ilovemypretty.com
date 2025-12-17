@@ -2,6 +2,102 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+/* Floating hearts background - covers full layout */
+.floating-hearts-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floating-heart {
+  position: absolute;
+  bottom: -10%;
+  font-size: 1.2rem;
+  opacity: 0;
+  animation: floatUp ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+/* Varied positions, sizes, speeds, and delays for organic movement */
+.floating-heart:nth-child(1) { 
+  left: 3%; 
+  font-size: 1rem;
+  animation-duration: 14s;
+  animation-delay: 0s;
+}
+.floating-heart:nth-child(2) { 
+  left: 12%; 
+  font-size: 1.4rem;
+  animation-duration: 18s;
+  animation-delay: 2s;
+}
+.floating-heart:nth-child(3) { 
+  left: 22%; 
+  font-size: 1rem;
+  animation-duration: 15s;
+  animation-delay: 5s;
+}
+.floating-heart:nth-child(4) { 
+  left: 33%; 
+  font-size: 1.6rem;
+  animation-duration: 20s;
+  animation-delay: 1s;
+}
+.floating-heart:nth-child(5) { 
+  left: 44%; 
+  font-size: 1.1rem;
+  animation-duration: 16s;
+  animation-delay: 3.5s;
+}
+.floating-heart:nth-child(6) { 
+  left: 55%; 
+  font-size: 1.3rem;
+  animation-duration: 17s;
+  animation-delay: 6s;
+}
+.floating-heart:nth-child(7) { 
+  left: 66%; 
+  font-size: 0.9rem;
+  animation-duration: 13s;
+  animation-delay: 2.5s;
+}
+.floating-heart:nth-child(8) { 
+  left: 76%; 
+  font-size: 1.2rem;
+  animation-duration: 19s;
+  animation-delay: 0.5s;
+}
+.floating-heart:nth-child(9) { 
+  left: 85%; 
+  font-size: 0.85rem;
+  animation-duration: 21s;
+  animation-delay: 4s;
+}
+.floating-heart:nth-child(10) { 
+  left: 94%; 
+  font-size: 1.5rem;
+  animation-duration: 15s;
+  animation-delay: 7s;
+}
+.floating-heart:nth-child(11) { 
+  left: 8%; 
+  font-size: 1.1rem;
+  animation-duration: 22s;
+  animation-delay: 8s;
+}
+.floating-heart:nth-child(12) { 
+  left: 60%; 
+  font-size: 1.35rem;
+  animation-duration: 16s;
+  animation-delay: 9s;
 }
 
 .header {
@@ -11,6 +107,7 @@
   background: rgba(253, 248, 243, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(200, 139, 159, 0.2);
+  position: relative;
 }
 
 .nav {
@@ -73,6 +170,8 @@
 .main {
   flex: 1;
   padding: var(--spacing-lg) 0;
+  position: relative;
+  z-index: 2;
 }
 
 .footer {
@@ -81,6 +180,8 @@
   background: linear-gradient(to top, rgba(255, 182, 193, 0.1), transparent);
   color: var(--color-warm-gray);
   font-size: 0.9rem;
+  position: relative;
+  z-index: 2;
 }
 
 /* Mobile responsive */
@@ -96,5 +197,21 @@
   .nav-link {
     font-size: 0.85rem;
   }
+}
+
+/* Larger hearts on desktop */
+@media (min-width: 768px) {
+  .floating-heart:nth-child(1) { font-size: 1.3rem; }
+  .floating-heart:nth-child(2) { font-size: 1.8rem; }
+  .floating-heart:nth-child(3) { font-size: 1.3rem; }
+  .floating-heart:nth-child(4) { font-size: 2rem; }
+  .floating-heart:nth-child(5) { font-size: 1.4rem; }
+  .floating-heart:nth-child(6) { font-size: 1.7rem; }
+  .floating-heart:nth-child(7) { font-size: 1.2rem; }
+  .floating-heart:nth-child(8) { font-size: 1.5rem; }
+  .floating-heart:nth-child(9) { font-size: 1.1rem; }
+  .floating-heart:nth-child(10) { font-size: 1.9rem; }
+  .floating-heart:nth-child(11) { font-size: 1.4rem; }
+  .floating-heart:nth-child(12) { font-size: 1.7rem; }
 }
 

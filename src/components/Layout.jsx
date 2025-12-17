@@ -15,6 +15,15 @@ function Layout() {
 
   return (
     <div className="layout">
+      {/* Floating hearts background animation */}
+      <div className="floating-hearts-bg">
+        {[...Array(12)].map((_, i) => (
+          <span key={i} className="floating-heart">
+            🤍
+          </span>
+        ))}
+      </div>
+      
       <header className="header">
         <nav className="nav">
           <Link to="/" className="nav-logo">
