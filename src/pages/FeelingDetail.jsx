@@ -118,6 +118,17 @@ function FeelingDetail() {
             <h2 className="section-title section-title-scripture">
               <span>From Scripture</span>
               <div className="scripture-controls">
+                {content.bibleGatewayUrl && (
+                  <a 
+                    href={getUpdatedBibleGatewayUrl(content.bibleGatewayUrl)} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bible-gateway-link"
+                    title="Read all verses on Bible Gateway"
+                  >
+                    📖
+                  </a>
+                )}
                 <select 
                   className="version-selector"
                   value={selectedVersion}
@@ -130,17 +141,6 @@ function FeelingDetail() {
                     </option>
                   ))}
                 </select>
-                {content.bibleGatewayUrl && (
-                  <a 
-                    href={getUpdatedBibleGatewayUrl(content.bibleGatewayUrl)} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="bible-gateway-link"
-                    title="Read all verses on Bible Gateway"
-                  >
-                    📖
-                  </a>
-                )}
               </div>
             </h2>
             <div className="section-content verses-content">
