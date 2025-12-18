@@ -28,7 +28,9 @@ function Layout() {
       link.rel = 'icon'
       document.head.appendChild(link)
     }
-    link.href = canvas.toDataURL('image/png')
+    
+    // Add timestamp to bust browser cache
+    link.href = canvas.toDataURL('image/png') + '?' + new Date().getTime()
   }, [selectedHeart])
   
   // Generate random hearts with random styles once on mount
@@ -43,7 +45,7 @@ function Layout() {
         animationDelay: `${Math.random() * 2}s`, // Shorter initial delay since they're already visible
       }
     })),
-    []
+    [heartEmojis]
   )
   
   // Navigation items - letters and memories are hidden for now
