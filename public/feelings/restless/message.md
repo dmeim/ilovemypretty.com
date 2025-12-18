@@ -1,1 +1,1 @@
-Restlessness often comes when your soul is searching for something—direction, purpose, or peace. Try to be present and ground yourself in this moment; true rest will come.
+Restlessness often comes when your soul is searching for something — ask Him for guidance. Try to be present and ground yourself in the moment; He will come.

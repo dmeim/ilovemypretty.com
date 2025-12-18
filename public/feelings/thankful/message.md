@@ -1,1 +1,1 @@
-When we take the time to count our blessings, we realize just how abundant our lives really are. May your thankful heart continue to see the beauty in each new day.
+When we take the time to count our blessings, we realize just how abundant the Lord has made our lives. May your thankful heart continue to see the beauty in each new day.

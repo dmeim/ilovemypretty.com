@@ -1,1 +1,1 @@
-Anxiety lies—it tells you things are worse than they are and that you can't handle it. The truth is, you are capable, held, and loved.
+Anxiety lies — satan it tells you things are worse than they are and that you can't handle it. But the truth is you can handle it, you are capable and loved.

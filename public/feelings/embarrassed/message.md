@@ -1,1 +1,1 @@
-Whatever happened doesn't define you—we all have moments that make us cringe, and that's part of being beautifully human. This feeling will fade, and one day it might even become a funny story you tell.
+One event or situation doesn't define you — we all have moments that make us cringe, and that's part of being human. This feeling will fade, and one day it might even become a funny story you tell.

@@ -1,1 +1,1 @@
-Comparing your journey to someone else's doesn't show the full picture—you have your own blessings, your own path, your own gifts. Your story is being written just for you, and the blessings meant for you will find you.
+Comparing your journey to someone else's isn't right — you have your own path, blessings, and gifts; you are uniquly and fearfuly made.

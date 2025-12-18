@@ -1,1 +1,1 @@
-Fear has a way of magnifying dangers and stealing peace, but you are protected and watched over. Light is stronger than darkness, and love is stronger than fear.
+Satan has a way of magnifying dangers and stealing peace, but you are one of His children; you are protected and watched over. His Light is stronger than any darkness, and His Love is stronger than any fear.

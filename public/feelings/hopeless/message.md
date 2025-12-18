@@ -1,1 +1,1 @@
-Even in the darkest night, the sun is still there—just hidden. Dawn is coming, even if you can't see it yet; hold on, because better days are ahead.
+Even in the darkest moments, He is still there; Light is coming, even if you can't see it yet.

@@ -1,1 +1,1 @@
-You're giving so much of yourself, and it's okay to admit that you need rest. Rest is not weakness—it's wisdom.
+You're giving so much of yourself, and it's okay to admit that you need rest. Rest with and in Him - it's not a weakness, it's trust and faith that He can help you no matter the issue.

@@ -1,1 +1,1 @@
-Loneliness is a feeling, not a fact. The truth is you are deeply loved, deeply valued, and deeply connected to hearts that cherish you.
+Loneliness is just a feeling, not a fact. Satan want you to feel alone, afraid, and backed into a corner, but that isn't true. He is there with you, always, even if you can't feel it right now.

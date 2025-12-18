@@ -1,1 +1,1 @@
-Faith is believing without seeing, trusting without knowing the full plan, and stepping forward even when the path isn't clear. Keep holding onto that faith—even as small as a mustard seed, it can move mountains.
+Faith is believing without seeing, trusting without knowing, and stepping forward even when the path isn't clear. Keep holding onto that faith — even as small as a mustard seed, it can move mountains.

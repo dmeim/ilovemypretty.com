@@ -1,1 +1,1 @@
-It's okay to feel frustrated—it means you care, you're trying, and you have goals. This frustration is temporary, but your strength is not.
+It's okay to feel frustrated — it means you care, you're trying, and you have goals. Your frustration is temporary, but your strength and perseverance is not.

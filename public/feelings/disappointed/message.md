@@ -1,1 +1,1 @@
-Disappointment comes from hoping for something good, and it hurts when things don't work out the way you wanted. But closed doors sometimes lead to better ones—keep believing in good things.
+Disappointment comes from hoping for something and not recieving it, but that doesn't mean you were supposed to get it. You must always remember that God has the plan, so when some doors close, others open; keep faith in Him.

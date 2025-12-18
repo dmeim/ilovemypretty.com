@@ -1,1 +1,1 @@
-It's okay to feel heavy-hearted—life brings moments that weigh on us, and it's not weakness to feel the burden. This weight won't last forever, and lighter days are coming.
+It's okay to feel heavy-hearted — life can bring moments that weigh on us, and it's not weakness to feel this burden. This weight won't last forever, lighter days are coming.

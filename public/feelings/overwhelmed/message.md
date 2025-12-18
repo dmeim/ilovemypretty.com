@@ -1,1 +1,1 @@
-You don't have to do everything right now or be everything to everyone. Just take one step, then another—one thing at a time.
+Seek Him and give this burden to Him - you don't have to do everything alone.

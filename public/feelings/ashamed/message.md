@@ -1,1 +1,1 @@
-You are not defined by your mistakes, your past, or your lowest moments. You are defined by love—the love that created you and will never let you go.
+You are not defined by your mistakes, your past, or your lowest moments. You are defined by the love that created you and He will never let you go.

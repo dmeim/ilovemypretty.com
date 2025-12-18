@@ -1,1 +1,1 @@
-Patience is a quiet strength, and choosing to wait and trust the timing takes real faith. Whatever you're waiting for will be worth it—the waiting season is preparation time.
+Patience is a quiet strength, choosing to wait and trust His timing takes faith. Lean on Him for guidance.

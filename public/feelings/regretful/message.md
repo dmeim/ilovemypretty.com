@@ -1,1 +1,1 @@
-We can't rewrite history, but every regret can be transformed into wisdom if we let it teach us instead of torment us. The past is behind you, and the future is wide open.
+Satan wants us to focus on the past so we can forget our future with the Lord. We can't rewrite history, but we can turn regret into a teacher; being transformed and gaining wisdom if we let Him teach us.

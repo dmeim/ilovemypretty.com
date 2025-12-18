@@ -1,1 +1,1 @@
-Burnout isn't just tiredness—it's when you've given everything and have nothing left to give. You matter more than any task, deadline, or responsibility.
+Burnout isn't just tiredness — it's when you've given everything and have nothing left to give. But that's you, God always has more that, just ask and you will recieve; no matter the task, deadline, or responsibility.

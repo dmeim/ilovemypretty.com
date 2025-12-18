@@ -1,1 +1,1 @@
-Embrace that bubbling anticipation and spark of something wonderful about to happen. Go ahead and feel all the butterflies—something amazing is unfolding.
+Embrace that bubbling anticipation and spark of wonderfullness. You are part of something bigger than yourself and you can to feel it; enjoy.
