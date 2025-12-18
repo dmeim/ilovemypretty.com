@@ -1,12 +1,12 @@
-> "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, yes, I will help you, I will uphold you with My righteous right hand."
+> "There is no fear in love; but perfect love casts out fear."
 >
-> — Isaiah 41:10
+> — 1 John 4:18
 
 ---
 
-> "Whenever I am afraid, I will trust in You."
+> "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, yes, I will help you, I will uphold you with My righteous right hand."
 >
-> — Psalm 56:3
+> — Isaiah 41:10
 
 ---
 
