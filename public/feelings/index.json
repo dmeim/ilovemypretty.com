@@ -171,6 +171,16 @@
       }
     },
     {
+      "id": "whole",
+      "title": "Whole",
+      "subtitle": "Complete just as you are",
+      "theming": {
+        "backgroundColor": "#FFF8E7",
+        "textColor": "#5C4A32",
+        "accentColor": "#D4A373"
+      }
+    },
+    {
       "id": "sad",
       "title": "Sad",
       "subtitle": "It's okay to feel this way",
@@ -371,6 +381,16 @@
       }
     },
     {
+      "id": "embarrassed",
+      "title": "Embarrassed",
+      "subtitle": "This moment will pass",
+      "theming": {
+        "backgroundColor": "#FDE8E8",
+        "textColor": "#8B4A5E",
+        "accentColor": "#E8A0A0"
+      }
+    },
+    {
       "id": "regretful",
       "title": "Regretful",
       "subtitle": "The future is open",
@@ -468,6 +488,16 @@
         "backgroundColor": "#E0E0E0",
         "textColor": "#424242",
         "accentColor": "#757575"
+      }
+    },
+    {
+      "id": "trapped",
+      "title": "Trapped",
+      "subtitle": "Freedom is coming",
+      "theming": {
+        "backgroundColor": "#E5E7EB",
+        "textColor": "#374151",
+        "accentColor": "#6B7280"
       }
     }
   ]
