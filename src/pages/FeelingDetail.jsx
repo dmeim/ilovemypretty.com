@@ -4,11 +4,44 @@ import MarkdownRenderer from '../components/MarkdownRenderer'
 import { loadContent, fetchIndex } from '../utils/contentLoader'
 import './FeelingDetail.css'
 
+const BIBLE_VERSIONS = [
+  { code: 'NKJV', name: 'NKJV' },
+  { code: 'NIV', name: 'NIV' },
+  { code: 'ESV', name: 'ESV' },
+  { code: 'KJV', name: 'KJV' },
+  { code: 'NLT', name: 'NLT' },
+]
+
+const STORAGE_KEY = 'preferred-bible-version'
+
 function FeelingDetail() {
   const { emotion } = useParams()
   const [content, setContent] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [selectedVersion, setSelectedVersion] = useState(() => {
+    // Load from localStorage or default to NKJV
+    return localStorage.getItem(STORAGE_KEY) || 'NKJV'
+  })
+
+  // Save version preference to localStorage when it changes
+  const handleVersionChange = (e) => {
+    const newVersion = e.target.value
+    setSelectedVersion(newVersion)
+    localStorage.setItem(STORAGE_KEY, newVersion)
+  }
+
+  // Helper to update the Bible Gateway URL with the selected version
+  const getUpdatedBibleGatewayUrl = (url) => {
+    if (!url) return null
+    try {
+      const urlObj = new URL(url)
+      urlObj.searchParams.set('version', selectedVersion)
+      return urlObj.toString()
+    } catch {
+      return url
+    }
+  }
 
   useEffect(() => {
     async function load() {
@@ -82,22 +115,36 @@ function FeelingDetail() {
 
         {content.versesContent && (
           <section className="feeling-section feeling-verses">
-            <h2 className="section-title">
-              From Scripture
-              {content.bibleGatewayUrl && (
-                <a 
-                  href={content.bibleGatewayUrl} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="bible-gateway-link"
-                  title="Read these verses on Bible Gateway"
+            <h2 className="section-title section-title-scripture">
+              <span>From Scripture</span>
+              <div className="scripture-controls">
+                <select 
+                  className="version-selector"
+                  value={selectedVersion}
+                  onChange={handleVersionChange}
+                  aria-label="Select Bible version"
                 >
-                  📖
-                </a>
-              )}
+                  {BIBLE_VERSIONS.map((v) => (
+                    <option key={v.code} value={v.code}>
+                      {v.name}
+                    </option>
+                  ))}
+                </select>
+                {content.bibleGatewayUrl && (
+                  <a 
+                    href={getUpdatedBibleGatewayUrl(content.bibleGatewayUrl)} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bible-gateway-link"
+                    title="Read all verses on Bible Gateway"
+                  >
+                    📖
+                  </a>
+                )}
+              </div>
             </h2>
             <div className="section-content verses-content">
-              <MarkdownRenderer content={content.versesContent} />
+              <MarkdownRenderer content={content.versesContent} bibleVersion={selectedVersion} parseVerses />
             </div>
           </section>
         )}
