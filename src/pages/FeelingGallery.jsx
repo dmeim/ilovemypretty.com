@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import Gallery from '../components/Gallery'
 import Card from '../components/Card'
-import { fetchIndex } from '../utils/contentLoader'
+import { fetchIndexWithGroups } from '../utils/contentLoader'
+import './FeelingGallery.css'
 
 function FeelingGallery() {
+  const [groups, setGroups] = useState([])
   const [feelings, setFeelings] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -11,7 +13,8 @@ function FeelingGallery() {
   useEffect(() => {
     async function loadFeelings() {
       try {
-        const items = await fetchIndex('feelings')
+        const { groups: groupsData, items } = await fetchIndexWithGroups('feelings')
+        setGroups(groupsData)
         setFeelings(items)
       } catch (err) {
         console.error('Failed to load feelings:', err)
@@ -23,6 +26,20 @@ function FeelingGallery() {
     
     loadFeelings()
   }, [])
+
+  // Group feelings by their group field
+  const groupedFeelings = groups.map(group => ({
+    ...group,
+    feelings: feelings.filter(f => f.group === group.id)
+  })).filter(group => group.feelings.length > 0)
+
+  // Calculate animation delay offset for each section
+  let globalIndex = 0
+  const sectionsWithDelays = groupedFeelings.map(group => {
+    const startIndex = globalIndex
+    globalIndex += group.feelings.length
+    return { ...group, startIndex }
+  })
 
   if (loading) {
     return (
@@ -44,20 +61,30 @@ function FeelingGallery() {
     <Gallery
       title="How are you feeling?"
       subtitle="Tap on how you're feeling right now, and I'll be there for you"
+      useSections
     >
-      {feelings.map((feeling, index) => (
-        <Card
-          key={feeling.id}
-          to={`/feeling/${feeling.id}`}
-          title={feeling.title}
-          subtitle={feeling.subtitle}
-          theming={feeling.theming}
-          delay={index}
-        />
+      {sectionsWithDelays.map((group) => (
+        <section key={group.id} className="feeling-section">
+          <div className="feeling-section-header">
+            <h2 className="feeling-section-title">{group.title}</h2>
+            <p className="feeling-section-description">{group.description}</p>
+          </div>
+          <div className="feeling-section-grid">
+            {group.feelings.map((feeling, index) => (
+              <Card
+                key={feeling.id}
+                to={`/feeling/${feeling.id}`}
+                title={feeling.title}
+                subtitle={feeling.subtitle}
+                theming={feeling.theming}
+                delay={group.startIndex + index}
+              />
+            ))}
+          </div>
+        </section>
       ))}
     </Gallery>
   )
 }
 
 export default FeelingGallery
-

@@ -57,6 +57,26 @@ export async function fetchIndex(type) {
 }
 
 /**
+ * Fetches the full index including groups for a content type
+ * @param {string} type - 'feelings', 'letters', or 'memories'
+ * @returns {Promise<Object>} Object with { groups, items }
+ */
+export async function fetchIndexWithGroups(type) {
+  const url = `${BASE_URL}${type}/index.json`
+  const response = await fetch(url)
+  
+  if (!response.ok) {
+    throw new Error(`Failed to load index for ${type}`)
+  }
+  
+  const index = await response.json()
+  return {
+    groups: index.groups || [],
+    items: index.items || []
+  }
+}
+
+/**
  * Loads complete content for a detail page (config + markdown files)
  * @param {string} type - 'feelings', 'letters', or 'memories'
  * @param {string} id - The folder name/id
