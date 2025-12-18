@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom'
+import { useHeart } from '../contexts/HeartContext'
 import './Home.css'
 
 function Home() {
+  const { selectedHeart } = useHeart()
+  
   return (
     <div className="home">
       <div className="home-hero">
         <h1 className="home-title">
-          My Pretty 🤍
+          My Pretty {selectedHeart}
         </h1>
         
         <p className="home-subtitle">
@@ -24,7 +27,7 @@ function Home() {
           </p>
           <p>
             This is my way of being there for you, even when I can't be 
-            there in person. I love you My Pretty 🤍.
+            there in person. I love you My Pretty {selectedHeart}.
           </p>
           <p className="home-signature">
             — Your Handsome, Swole, Nerdy Man

@@ -1,21 +1,14 @@
 import { useMemo, useEffect } from 'react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
+import { useHeart } from '../contexts/HeartContext'
 import './Layout.css'
-
-// All heart emoji colors
-const heartEmojis = ['🤍', '❤️', '🧡', '💛', '💚', '💙', '💜', '🩷', '🩵', '🩶']
 
 // Configuration - just change this number!
 const HEART_COUNT = 30
 
 function Layout() {
   const location = useLocation()
-  
-  // Randomly select one heart emoji for the logo and favicon on each page load
-  const selectedHeart = useMemo(() => 
-    heartEmojis[Math.floor(Math.random() * heartEmojis.length)],
-    []
-  )
+  const { selectedHeart, heartEmojis } = useHeart()
   
   // Update the favicon dynamically to match the selected heart
   useEffect(() => {
@@ -98,7 +91,7 @@ function Layout() {
       </main>
       
       <footer className="footer">
-        <p>Made with love, for you 🤍</p>
+        <p>Made with love</p>
       </footer>
     </div>
   )
