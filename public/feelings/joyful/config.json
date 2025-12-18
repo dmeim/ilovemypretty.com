@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Nehemiah+8%3A10%3BPsalm+16%3A11%3BRomans+15%3A13&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FFF8E7",
+    "textColor": "#5C4A32",
+    "accentColor": "#F4A460"
+  }
+}
+

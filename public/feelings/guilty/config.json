@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=1+John+1%3A9%3BPsalm+103%3A12%3BRomans+8%3A1&version=NKJV",
+  "theming": {
+    "backgroundColor": "#EFEBE9",
+    "textColor": "#4E342E",
+    "accentColor": "#8D6E63"
+  }
+}
+

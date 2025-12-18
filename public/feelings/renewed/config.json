@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Isaiah+40%3A31%3BLamentations+3%3A22-23%3B2+Corinthians+4%3A16&version=NKJV",
+  "theming": {
+    "backgroundColor": "#E8F8F5",
+    "textColor": "#1B4D3E",
+    "accentColor": "#26A69A"
+  }
+}
+

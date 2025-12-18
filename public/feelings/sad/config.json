@@ -1,10 +1,10 @@
 {
   "message": "message.md",
   "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+34%3A18%3BPsalm+147%3A3%3BPsalm+30%3A5&version=NKJV",
   "theming": {
     "backgroundColor": "#E8EEF2",
     "textColor": "#3D4A5C",
     "accentColor": "#7BA3C4"
   }
 }
-

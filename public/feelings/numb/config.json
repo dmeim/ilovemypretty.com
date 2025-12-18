@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+40%3A1-3%3BEzekiel+37%3A5-6%3BPsalm+51%3A10&version=NKJV",
+  "theming": {
+    "backgroundColor": "#F5F5F5",
+    "textColor": "#757575",
+    "accentColor": "#BDBDBD"
+  }
+}
+

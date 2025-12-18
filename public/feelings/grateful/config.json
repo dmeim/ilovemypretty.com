@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=1+Thessalonians+5%3A18%3BPsalm+107%3A1%3BColossians+3%3A17&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FDF5E6",
+    "textColor": "#5D4E37",
+    "accentColor": "#D4A574"
+  }
+}
+

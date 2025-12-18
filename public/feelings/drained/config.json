@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Isaiah+40%3A29%3BPhilippians+4%3A13%3BPsalm+73%3A26&version=NKJV",
+  "theming": {
+    "backgroundColor": "#ECEFF1",
+    "textColor": "#455A64",
+    "accentColor": "#90A4AE"
+  }
+}
+

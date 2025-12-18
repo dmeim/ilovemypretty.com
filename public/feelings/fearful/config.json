@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+23%3A4%3BPsalm+27%3A1%3BJohn+14%3A27&version=NKJV",
+  "theming": {
+    "backgroundColor": "#E8EAF6",
+    "textColor": "#283593",
+    "accentColor": "#5C6BC0"
+  }
+}
+

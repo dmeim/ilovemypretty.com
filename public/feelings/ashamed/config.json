@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Romans+10%3A11%3BIsaiah+54%3A4%3BPsalm+34%3A5&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#424242",
+    "accentColor": "#9E9E9E"
+  }
+}
+

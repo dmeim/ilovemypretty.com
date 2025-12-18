@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Isaiah+41%3A10%3BPsalm+56%3A3%3B2+Timothy+1%3A7&version=NKJV",
+  "theming": {
+    "backgroundColor": "#ECEFF1",
+    "textColor": "#37474F",
+    "accentColor": "#78909C"
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+46%3A10%3BMatthew+11%3A28-29%3BPsalm+23%3A2&version=NKJV",
+  "theming": {
+    "backgroundColor": "#E6F2F5",
+    "textColor": "#34495E",
+    "accentColor": "#6BB3C9"
+  }
+}
+

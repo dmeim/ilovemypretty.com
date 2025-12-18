@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=James+1%3A19-20%3BPsalm+37%3A7-8%3BProverbs+14%3A29&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FFEBEE",
+    "textColor": "#B71C1C",
+    "accentColor": "#EF5350"
+  }
+}
+

@@ -11,6 +11,166 @@
       }
     },
     {
+      "id": "joyful",
+      "title": "Joyful",
+      "subtitle": "Let your spirit overflow",
+      "theming": {
+        "backgroundColor": "#FFF8E7",
+        "textColor": "#5C4A32",
+        "accentColor": "#F4A460"
+      }
+    },
+    {
+      "id": "peaceful",
+      "title": "Peaceful",
+      "subtitle": "Rest in stillness",
+      "theming": {
+        "backgroundColor": "#E8F4F0",
+        "textColor": "#2D4A44",
+        "accentColor": "#5F9EA0"
+      }
+    },
+    {
+      "id": "calm",
+      "title": "Calm",
+      "subtitle": "Be still and breathe",
+      "theming": {
+        "backgroundColor": "#E6F2F5",
+        "textColor": "#34495E",
+        "accentColor": "#6BB3C9"
+      }
+    },
+    {
+      "id": "grateful",
+      "title": "Grateful",
+      "subtitle": "Count your blessings",
+      "theming": {
+        "backgroundColor": "#FDF5E6",
+        "textColor": "#5D4E37",
+        "accentColor": "#D4A574"
+      }
+    },
+    {
+      "id": "loved",
+      "title": "Loved",
+      "subtitle": "You are cherished",
+      "theming": {
+        "backgroundColor": "#FFF0F3",
+        "textColor": "#5D3A4A",
+        "accentColor": "#E8909C"
+      }
+    },
+    {
+      "id": "thankful",
+      "title": "Thankful",
+      "subtitle": "Appreciate the gifts",
+      "theming": {
+        "backgroundColor": "#F5EBE0",
+        "textColor": "#5D4E37",
+        "accentColor": "#C19A6B"
+      }
+    },
+    {
+      "id": "hopeful",
+      "title": "Hopeful",
+      "subtitle": "Tomorrow holds promise",
+      "theming": {
+        "backgroundColor": "#E8F5E9",
+        "textColor": "#2E5035",
+        "accentColor": "#66BB6A"
+      }
+    },
+    {
+      "id": "excited",
+      "title": "Excited",
+      "subtitle": "Embrace the anticipation",
+      "theming": {
+        "backgroundColor": "#FFF3E0",
+        "textColor": "#5D4037",
+        "accentColor": "#FF9800"
+      }
+    },
+    {
+      "id": "inspired",
+      "title": "Inspired",
+      "subtitle": "Create something beautiful",
+      "theming": {
+        "backgroundColor": "#E8EAF6",
+        "textColor": "#303F60",
+        "accentColor": "#5C6BC0"
+      }
+    },
+    {
+      "id": "encouraged",
+      "title": "Encouraged",
+      "subtitle": "Your spirit is lifted",
+      "theming": {
+        "backgroundColor": "#E0F7FA",
+        "textColor": "#006064",
+        "accentColor": "#00ACC1"
+      }
+    },
+    {
+      "id": "renewed",
+      "title": "Renewed",
+      "subtitle": "Made fresh again",
+      "theming": {
+        "backgroundColor": "#E8F8F5",
+        "textColor": "#1B4D3E",
+        "accentColor": "#26A69A"
+      }
+    },
+    {
+      "id": "brave",
+      "title": "Brave",
+      "subtitle": "Face your fears with courage",
+      "theming": {
+        "backgroundColor": "#FBE9E7",
+        "textColor": "#BF360C",
+        "accentColor": "#E64A19"
+      }
+    },
+    {
+      "id": "trusting",
+      "title": "Trusting",
+      "subtitle": "Let go and believe",
+      "theming": {
+        "backgroundColor": "#E3F2FD",
+        "textColor": "#1565C0",
+        "accentColor": "#42A5F5"
+      }
+    },
+    {
+      "id": "patient",
+      "title": "Patient",
+      "subtitle": "Wait with grace",
+      "theming": {
+        "backgroundColor": "#F3E5F5",
+        "textColor": "#6A1B9A",
+        "accentColor": "#AB47BC"
+      }
+    },
+    {
+      "id": "faithful",
+      "title": "Faithful",
+      "subtitle": "Hold onto belief",
+      "theming": {
+        "backgroundColor": "#ECEFF1",
+        "textColor": "#37474F",
+        "accentColor": "#607D8B"
+      }
+    },
+    {
+      "id": "relieved",
+      "title": "Relieved",
+      "subtitle": "The weight is lifted",
+      "theming": {
+        "backgroundColor": "#E8F5E9",
+        "textColor": "#2E7D32",
+        "accentColor": "#4CAF50"
+      }
+    },
+    {
       "id": "sad",
       "title": "Sad",
       "subtitle": "It's okay to feel this way",
@@ -18,6 +178,46 @@
         "backgroundColor": "#E8EEF2",
         "textColor": "#3D4A5C",
         "accentColor": "#7BA3C4"
+      }
+    },
+    {
+      "id": "lonely",
+      "title": "Lonely",
+      "subtitle": "You're not alone",
+      "theming": {
+        "backgroundColor": "#E8ECF4",
+        "textColor": "#3D4A5C",
+        "accentColor": "#7986CB"
+      }
+    },
+    {
+      "id": "heavy-hearted",
+      "title": "Heavy-hearted",
+      "subtitle": "Carrying a weight",
+      "theming": {
+        "backgroundColor": "#E5E5EA",
+        "textColor": "#3C3C43",
+        "accentColor": "#8E8E93"
+      }
+    },
+    {
+      "id": "broken",
+      "title": "Broken",
+      "subtitle": "You will be made whole",
+      "theming": {
+        "backgroundColor": "#EDEEF0",
+        "textColor": "#454952",
+        "accentColor": "#9CA3AF"
+      }
+    },
+    {
+      "id": "anxious",
+      "title": "Anxious",
+      "subtitle": "Find your calm",
+      "theming": {
+        "backgroundColor": "#F5EEF8",
+        "textColor": "#4A3F55",
+        "accentColor": "#9575CD"
       }
     },
     {
@@ -29,7 +229,246 @@
         "textColor": "#4A3F55",
         "accentColor": "#9B7BB8"
       }
+    },
+    {
+      "id": "stressed",
+      "title": "Stressed",
+      "subtitle": "Let go of the pressure",
+      "theming": {
+        "backgroundColor": "#FFF3E0",
+        "textColor": "#5D4037",
+        "accentColor": "#E67E22"
+      }
+    },
+    {
+      "id": "afraid",
+      "title": "Afraid",
+      "subtitle": "Courage awaits",
+      "theming": {
+        "backgroundColor": "#ECEFF1",
+        "textColor": "#37474F",
+        "accentColor": "#78909C"
+      }
+    },
+    {
+      "id": "fearful",
+      "title": "Fearful",
+      "subtitle": "Light overcomes darkness",
+      "theming": {
+        "backgroundColor": "#E8EAF6",
+        "textColor": "#283593",
+        "accentColor": "#5C6BC0"
+      }
+    },
+    {
+      "id": "insecure",
+      "title": "Insecure",
+      "subtitle": "You are wonderfully made",
+      "theming": {
+        "backgroundColor": "#FCE4EC",
+        "textColor": "#880E4F",
+        "accentColor": "#EC407A"
+      }
+    },
+    {
+      "id": "frustrated",
+      "title": "Frustrated",
+      "subtitle": "This too shall pass",
+      "theming": {
+        "backgroundColor": "#FFEBEE",
+        "textColor": "#B71C1C",
+        "accentColor": "#EF5350"
+      }
+    },
+    {
+      "id": "disappointed",
+      "title": "Disappointed",
+      "subtitle": "Better things await",
+      "theming": {
+        "backgroundColor": "#EFEBE9",
+        "textColor": "#5D4037",
+        "accentColor": "#A1887F"
+      }
+    },
+    {
+      "id": "angry",
+      "title": "Angry",
+      "subtitle": "Let it go with grace",
+      "theming": {
+        "backgroundColor": "#FFCDD2",
+        "textColor": "#C62828",
+        "accentColor": "#E53935"
+      }
+    },
+    {
+      "id": "hurt",
+      "title": "Hurt",
+      "subtitle": "Healing will come",
+      "theming": {
+        "backgroundColor": "#F3E5F5",
+        "textColor": "#6A1B9A",
+        "accentColor": "#BA68C8"
+      }
+    },
+    {
+      "id": "discouraged",
+      "title": "Discouraged",
+      "subtitle": "Don't give up",
+      "theming": {
+        "backgroundColor": "#E0E0E0",
+        "textColor": "#424242",
+        "accentColor": "#757575"
+      }
+    },
+    {
+      "id": "confused",
+      "title": "Confused",
+      "subtitle": "Clarity will come",
+      "theming": {
+        "backgroundColor": "#E8EAF6",
+        "textColor": "#303F9F",
+        "accentColor": "#7986CB"
+      }
+    },
+    {
+      "id": "doubtful",
+      "title": "Doubtful",
+      "subtitle": "Faith grows through questions",
+      "theming": {
+        "backgroundColor": "#ECEFF1",
+        "textColor": "#455A64",
+        "accentColor": "#78909C"
+      }
+    },
+    {
+      "id": "lost",
+      "title": "Lost",
+      "subtitle": "You will find your way",
+      "theming": {
+        "backgroundColor": "#E0E7ED",
+        "textColor": "#37474F",
+        "accentColor": "#607D8B"
+      }
+    },
+    {
+      "id": "guilty",
+      "title": "Guilty",
+      "subtitle": "Grace covers you",
+      "theming": {
+        "backgroundColor": "#EFEBE9",
+        "textColor": "#4E342E",
+        "accentColor": "#8D6E63"
+      }
+    },
+    {
+      "id": "ashamed",
+      "title": "Ashamed",
+      "subtitle": "Step into the light",
+      "theming": {
+        "backgroundColor": "#FAFAFA",
+        "textColor": "#424242",
+        "accentColor": "#9E9E9E"
+      }
+    },
+    {
+      "id": "regretful",
+      "title": "Regretful",
+      "subtitle": "The future is open",
+      "theming": {
+        "backgroundColor": "#F5F5F5",
+        "textColor": "#616161",
+        "accentColor": "#9E9E9E"
+      }
+    },
+    {
+      "id": "jealous",
+      "title": "Jealous",
+      "subtitle": "Your path is unique",
+      "theming": {
+        "backgroundColor": "#E8F5E9",
+        "textColor": "#2E7D32",
+        "accentColor": "#66BB6A"
+      }
+    },
+    {
+      "id": "tired",
+      "title": "Tired",
+      "subtitle": "Rest is calling",
+      "theming": {
+        "backgroundColor": "#E8EAF6",
+        "textColor": "#3F51B5",
+        "accentColor": "#7986CB"
+      }
+    },
+    {
+      "id": "overwhelmed",
+      "title": "Overwhelmed",
+      "subtitle": "One step at a time",
+      "theming": {
+        "backgroundColor": "#FCE4EC",
+        "textColor": "#AD1457",
+        "accentColor": "#F06292"
+      }
+    },
+    {
+      "id": "burned-out",
+      "title": "Burned Out",
+      "subtitle": "Time to recharge",
+      "theming": {
+        "backgroundColor": "#EFEBE9",
+        "textColor": "#5D4037",
+        "accentColor": "#A1887F"
+      }
+    },
+    {
+      "id": "drained",
+      "title": "Drained",
+      "subtitle": "Let yourself be refilled",
+      "theming": {
+        "backgroundColor": "#ECEFF1",
+        "textColor": "#455A64",
+        "accentColor": "#90A4AE"
+      }
+    },
+    {
+      "id": "numb",
+      "title": "Numb",
+      "subtitle": "Feeling will return",
+      "theming": {
+        "backgroundColor": "#F5F5F5",
+        "textColor": "#757575",
+        "accentColor": "#BDBDBD"
+      }
+    },
+    {
+      "id": "weak",
+      "title": "Weak",
+      "subtitle": "Strength is coming",
+      "theming": {
+        "backgroundColor": "#E8F5E9",
+        "textColor": "#388E3C",
+        "accentColor": "#81C784"
+      }
+    },
+    {
+      "id": "restless",
+      "title": "Restless",
+      "subtitle": "Find your peace",
+      "theming": {
+        "backgroundColor": "#FFF8E1",
+        "textColor": "#F57F17",
+        "accentColor": "#FFB300"
+      }
+    },
+    {
+      "id": "hopeless",
+      "title": "Hopeless",
+      "subtitle": "Hope is still there",
+      "theming": {
+        "backgroundColor": "#E0E0E0",
+        "textColor": "#424242",
+        "accentColor": "#757575"
+      }
     }
   ]
 }
-

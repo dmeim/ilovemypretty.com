@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Joshua+1%3A9%3BPsalm+27%3A1%3BIsaiah+41%3A10&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FBE9E7",
+    "textColor": "#BF360C",
+    "accentColor": "#E64A19"
+  }
+}
+

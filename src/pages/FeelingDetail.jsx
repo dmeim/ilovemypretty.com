@@ -82,7 +82,20 @@ function FeelingDetail() {
 
         {content.versesContent && (
           <section className="feeling-section feeling-verses">
-            <h2 className="section-title">From Scripture</h2>
+            <h2 className="section-title">
+              From Scripture
+              {content.bibleGatewayUrl && (
+                <a 
+                  href={content.bibleGatewayUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bible-gateway-link"
+                  title="Read these verses on Bible Gateway"
+                >
+                  📖
+                </a>
+              )}
+            </h2>
             <div className="section-content verses-content">
               <MarkdownRenderer content={content.versesContent} />
             </div>

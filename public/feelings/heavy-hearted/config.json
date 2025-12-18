@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+34%3A18%3BMatthew+11%3A28-30%3BPsalm+73%3A26&version=NKJV",
+  "theming": {
+    "backgroundColor": "#E5E5EA",
+    "textColor": "#3C3C43",
+    "accentColor": "#8E8E93"
+  }
+}
+

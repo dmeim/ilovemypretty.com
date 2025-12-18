@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+37%3A4%3BIsaiah+43%3A19%3BPhilippians+1%3A6&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FFF3E0",
+    "textColor": "#5D4037",
+    "accentColor": "#FF9800"
+  }
+}
+

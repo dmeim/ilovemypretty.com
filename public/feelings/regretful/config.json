@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Philippians+3%3A13-14%3B2+Corinthians+7%3A10%3BIsaiah+43%3A18-19&version=NKJV",
+  "theming": {
+    "backgroundColor": "#F5F5F5",
+    "textColor": "#616161",
+    "accentColor": "#9E9E9E"
+  }
+}
+

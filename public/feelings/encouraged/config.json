@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Joshua+1%3A9%3BIsaiah+41%3A10%3BDeuteronomy+31%3A6&version=NKJV",
+  "theming": {
+    "backgroundColor": "#E0F7FA",
+    "textColor": "#006064",
+    "accentColor": "#00ACC1"
+  }
+}
+

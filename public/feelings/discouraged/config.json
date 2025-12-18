@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Joshua+1%3A9%3BIsaiah+40%3A31%3BGalatians+6%3A9&version=NKJV",
+  "theming": {
+    "backgroundColor": "#E0E0E0",
+    "textColor": "#424242",
+    "accentColor": "#757575"
+  }
+}
+

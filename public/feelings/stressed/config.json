@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Matthew+11%3A28-30%3BPsalm+55%3A22%3BIsaiah+40%3A29-31&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FFF3E0",
+    "textColor": "#5D4037",
+    "accentColor": "#E67E22"
+  }
+}
+

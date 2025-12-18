@@ -1,10 +1,10 @@
 {
   "message": "message.md",
   "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Philippians+4%3A6-7%3BPsalm+94%3A19%3BJohn+14%3A27&version=NKJV",
   "theming": {
     "backgroundColor": "#F5EEF8",
     "textColor": "#4A3F55",
     "accentColor": "#9B7BB8"
   }
 }
-

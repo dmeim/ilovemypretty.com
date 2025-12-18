@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Romans+8%3A38-39%3B1+John+4%3A19%3BJeremiah+31%3A3&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FFF0F3",
+    "textColor": "#5D3A4A",
+    "accentColor": "#E8909C"
+  }
+}
+

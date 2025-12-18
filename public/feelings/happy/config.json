@@ -1,10 +1,10 @@
 {
   "message": "message.md",
   "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+118%3A24%3BPhilippians+4%3A4%3BProverbs+17%3A22&version=NKJV",
   "theming": {
     "backgroundColor": "#FFF9E6",
     "textColor": "#5D4E37",
     "accentColor": "#FFD700"
   }
 }
-

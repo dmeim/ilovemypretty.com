@@ -1,0 +1,10 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+62%3A1%3BMatthew+11%3A28%3BPsalm+116%3A7&version=NKJV",
+  "theming": {
+    "backgroundColor": "#FFF8E1",
+    "textColor": "#F57F17",
+    "accentColor": "#FFB300"
+  }
+}

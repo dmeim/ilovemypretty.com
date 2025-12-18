@@ -1,4 +1,4 @@
-> "The Lord is close to the brokenhearted and saves those who are crushed in spirit."
+> "The Lord is near to those who have a broken heart, and saves such as have a contrite spirit."
 >
 > — Psalm 34:18
 
@@ -10,13 +10,7 @@
 
 ---
 
-> "Cast all your anxiety on him because he cares for you."
->
-> — 1 Peter 5:7
-
----
-
-> "Weeping may stay for the night, but rejoicing comes in the morning."
+> "Weeping may endure for a night, but joy comes in the morning."
 >
 > — Psalm 30:5
 

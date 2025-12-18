@@ -1,0 +1,11 @@
+{
+  "message": "message.md",
+  "verses": "verses.md",
+  "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+147%3A3%3BIsaiah+61%3A1-3%3BPsalm+34%3A18&version=NKJV",
+  "theming": {
+    "backgroundColor": "#EDEEF0",
+    "textColor": "#454952",
+    "accentColor": "#9CA3AF"
+  }
+}
+
