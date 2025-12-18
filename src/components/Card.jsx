@@ -5,11 +5,8 @@ function Card({ to, title, subtitle, theming, delay = 0 }) {
   const cardStyle = theming ? {
     '--card-bg': theming.backgroundColor,
     '--card-text': theming.textColor,
-    '--card-accent': theming.accentColor,
-    animationDelay: `${delay * 100}ms`
-  } : {
-    animationDelay: `${delay * 100}ms`
-  }
+    '--card-accent': theming.accentColor
+  } : {}
 
   return (
     <Link to={to} className="card" style={cardStyle}>
