@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Gallery from '../components/Gallery'
 import Card from '../components/Card'
 import { fetchIndexWithGroups } from '../utils/contentLoader'
@@ -9,6 +9,8 @@ function FeelingGallery() {
   const [feelings, setFeelings] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const searchInputRef = useRef(null)
 
   useEffect(() => {
     async function loadFeelings() {
@@ -27,10 +29,18 @@ function FeelingGallery() {
     loadFeelings()
   }, [])
 
+  // Filter feelings based on search query
+  const filteredFeelings = searchQuery.trim()
+    ? feelings.filter(f => 
+        f.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (f.subtitle && f.subtitle.toLowerCase().includes(searchQuery.toLowerCase()))
+      )
+    : feelings
+
   // Group feelings by their group field
   const groupedFeelings = groups.map(group => ({
     ...group,
-    feelings: feelings.filter(f => f.group === group.id)
+    feelings: filteredFeelings.filter(f => f.group === group.id)
   })).filter(group => group.feelings.length > 0)
 
   // Calculate animation delay offset for each section
@@ -40,6 +50,8 @@ function FeelingGallery() {
     globalIndex += group.feelings.length
     return { ...group, startIndex }
   })
+
+  const isSearching = searchQuery.trim().length > 0
 
   if (loading) {
     return (
@@ -63,6 +75,54 @@ function FeelingGallery() {
       subtitle="Tap on how you're feeling right now, and I'll be there for you"
       useSections
     >
+      {/* Search Box */}
+      <div className="feeling-search-container">
+        <div className="feeling-search-box">
+          <svg 
+            className="feeling-search-icon" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2"
+            strokeLinecap="round" 
+            strokeLinejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+          </svg>
+          <input
+            ref={searchInputRef}
+            type="text"
+            className="feeling-search-input"
+            placeholder="Search for a feeling..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          {searchQuery && (
+            <button 
+              className="feeling-search-clear"
+              onClick={() => {
+                setSearchQuery('')
+                searchInputRef.current?.focus()
+              }}
+              aria-label="Clear search"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M18 6L6 18M6 6l12 12" />
+              </svg>
+            </button>
+          )}
+        </div>
+        {isSearching && (
+          <p className="feeling-search-results">
+            {filteredFeelings.length === 0 
+              ? "No feelings found... try another word 💕" 
+              : `Found ${filteredFeelings.length} feeling${filteredFeelings.length !== 1 ? 's' : ''}`
+            }
+          </p>
+        )}
+      </div>
+
       {sectionsWithDelays.map((group) => (
         <section key={group.id} className="feeling-section">
           <div className="feeling-section-header">
@@ -77,7 +137,7 @@ function FeelingGallery() {
                 title={feeling.title}
                 subtitle={feeling.subtitle}
                 theming={feeling.theming}
-                delay={group.startIndex + index}
+                delay={isSearching ? 0 : group.startIndex + index}
               />
             ))}
           </div>

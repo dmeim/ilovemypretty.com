@@ -1,5 +1,100 @@
 /* Feeling Gallery Section Styles */
 
+/* Search Box Styles */
+.feeling-search-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto var(--spacing-lg);
+  text-align: center;
+}
+
+.feeling-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.feeling-search-icon {
+  position: absolute;
+  left: 1rem;
+  width: 20px;
+  height: 20px;
+  color: var(--color-dusty-rose);
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.feeling-search-input {
+  width: 100%;
+  padding: 0.875rem 2.75rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-charcoal);
+  background: white;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  box-shadow: 
+    0 2px 8px rgba(196, 139, 159, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: 
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+  outline: none;
+}
+
+.feeling-search-input::placeholder {
+  color: var(--color-warm-gray);
+  opacity: 0.7;
+}
+
+.feeling-search-input:focus {
+  border-color: var(--color-dusty-rose);
+  box-shadow: 
+    0 4px 12px rgba(196, 139, 159, 0.2),
+    0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.feeling-search-clear {
+  position: absolute;
+  right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: var(--color-cream);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.feeling-search-clear svg {
+  width: 14px;
+  height: 14px;
+  color: var(--color-warm-gray);
+}
+
+.feeling-search-clear:hover {
+  background: var(--color-blush);
+  transform: scale(1.1);
+}
+
+.feeling-search-clear:hover svg {
+  color: var(--color-charcoal);
+}
+
+.feeling-search-results {
+  margin-top: var(--spacing-sm);
+  font-size: 0.875rem;
+  color: var(--color-warm-gray);
+  font-style: italic;
+  animation: fadeIn var(--transition-fast) ease;
+}
+
 .feeling-section {
   width: 100%;
   margin-bottom: var(--spacing-xl);
