@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Gallery from '../components/Gallery'
 import Card from '../components/Card'
-import { fetchIndexWithGroups } from '../utils/contentLoader'
+import { fetchIndexWithGroups, fetchAllConfigs } from '../utils/contentLoader'
 import './FeelingGallery.css'
 
 function FeelingGallery() {
@@ -17,7 +17,18 @@ function FeelingGallery() {
       try {
         const { groups: groupsData, items } = await fetchIndexWithGroups('feelings')
         setGroups(groupsData)
-        setFeelings(items)
+        
+        // Fetch individual configs to get theming data
+        const ids = items.map(item => item.id)
+        const configs = await fetchAllConfigs('feelings', ids)
+        
+        // Merge theming from configs into items
+        const itemsWithTheming = items.map(item => ({
+          ...item,
+          theming: configs[item.id]?.theming || null
+        }))
+        
+        setFeelings(itemsWithTheming)
       } catch (err) {
         console.error('Failed to load feelings:', err)
         setError('Could not load feelings. Please try again.')

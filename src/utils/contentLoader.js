@@ -77,6 +77,32 @@ export async function fetchIndexWithGroups(type) {
 }
 
 /**
+ * Fetches all configs for a list of IDs in parallel
+ * @param {string} type - 'feelings', 'letters', or 'memories'
+ * @param {string[]} ids - Array of folder name/ids to fetch
+ * @returns {Promise<Object>} Map of { id: config } objects
+ */
+export async function fetchAllConfigs(type, ids) {
+  const results = await Promise.all(
+    ids.map(async (id) => {
+      try {
+        const config = await fetchConfig(type, id)
+        return { id, config }
+      } catch (err) {
+        console.warn(`Failed to load config for ${type}/${id}:`, err)
+        return { id, config: null }
+      }
+    })
+  )
+  
+  // Convert to map for efficient lookup
+  return results.reduce((acc, { id, config }) => {
+    if (config) acc[id] = config
+    return acc
+  }, {})
+}
+
+/**
  * Loads complete content for a detail page (config + markdown files)
  * @param {string} type - 'feelings', 'letters', or 'memories'
  * @param {string} id - The folder name/id
