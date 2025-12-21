@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from 'react'
+import { useMemo } from 'react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useHeart } from '../contexts/HeartContext'
 import './Layout.css'
@@ -9,29 +9,6 @@ const HEART_COUNT = 30
 function Layout() {
   const location = useLocation()
   const { selectedHeart, heartEmojis } = useHeart()
-  
-  // Update the favicon dynamically to match the selected heart
-  useEffect(() => {
-    const canvas = document.createElement('canvas')
-    canvas.width = 64
-    canvas.height = 64
-    const ctx = canvas.getContext('2d')
-    ctx.font = '56px serif'
-    ctx.textAlign = 'center'
-    ctx.textBaseline = 'middle'
-    ctx.fillText(selectedHeart, 32, 36)
-    
-    // Find existing favicon or create new one
-    let link = document.querySelector("link[rel*='icon']")
-    if (!link) {
-      link = document.createElement('link')
-      link.rel = 'icon'
-      document.head.appendChild(link)
-    }
-    
-    // Add timestamp to bust browser cache
-    link.href = canvas.toDataURL('image/png') + '?' + new Date().getTime()
-  }, [selectedHeart])
   
   // Generate random hearts with random styles once on mount
   const hearts = useMemo(() => 

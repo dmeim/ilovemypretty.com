@@ -20,13 +20,16 @@ function Home() {
       <div className="home-message">
         <div className="home-card">
           <p>
-            I wanted my gift to you to be something custom and personal, so I decided why not make a website.
-            No matter what you are feeling, you can either scan one of the cards I gave you, 
-            or come straight to this website, and get a message from me 
-            along with some comforting words from Scripture.
+            I wanted my gift to you to be something custom, personal, and timeless, so I decided "Why not make a website?"
           </p>
           <p>
-            This is my way of being there for you, even when I can't be 
+            When you are having some feelings, big or small, 
+            you can come here and browse, 
+            or scan one of the cards I gave you with your phone, 
+            and get a message from me along with some comforting words from Scripture.
+          </p>
+          <p>
+            This is my way of being there with and for you, even when I can't be 
             there in person. I love you My Pretty {selectedHeart}.
           </p>
           <p className="home-signature">
