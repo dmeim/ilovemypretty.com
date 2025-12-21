@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+34%3A18%3BPsalm+147%3A3%3BMatthew+5%3A4&version=NKJV",
   "theming": {
-    "backgroundColor": "#F3E5F5",
-    "textColor": "#6A1B9A",
-    "accentColor": "#BA68C8"
+    "backgroundColor": "#E7F0FA",
+    "textColor": "#133F6E",
+    "accentColor": "#1F6FD6"
   }
 }
 

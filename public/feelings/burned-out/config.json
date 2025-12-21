@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Exodus+33%3A14%3BPsalm+23%3A1-3%3BMatthew+11%3A28&version=NKJV",
   "theming": {
-    "backgroundColor": "#EFEBE9",
-    "textColor": "#5D4037",
-    "accentColor": "#A1887F"
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#3E424D",
+    "accentColor": "#B2B6C3"
   }
 }
 

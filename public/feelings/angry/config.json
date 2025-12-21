@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Ephesians+4%3A26-27%3BProverbs+15%3A1%3BJames+1%3A19-20&version=NKJV",
   "theming": {
-    "backgroundColor": "#FFCDD2",
-    "textColor": "#C62828",
-    "accentColor": "#E53935"
+    "backgroundColor": "#FDEBEC",
+    "textColor": "#7A0815",
+    "accentColor": "#ED0728"
   }
 }
 

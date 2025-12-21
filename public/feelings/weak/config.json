@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=2+Corinthians+12%3A9-10%3BIsaiah+40%3A29%3BPsalm+73%3A26&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8F5E9",
-    "textColor": "#388E3C",
-    "accentColor": "#81C784"
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#3E424D",
+    "accentColor": "#B2B6C3"
   }
 }
 

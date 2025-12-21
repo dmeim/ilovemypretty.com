@@ -48,9 +48,9 @@
       "subtitle": "Celebrate the joy",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#FFF9E6",
-        "textColor": "#5D4E37",
-        "accentColor": "#FFD700"
+        "backgroundColor": "#FFFBEA",
+        "textColor": "#7A6A1A",
+        "accentColor": "#F4D235"
       }
     },
     {
@@ -59,9 +59,9 @@
       "subtitle": "Let your spirit overflow",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#FFF8E7",
-        "textColor": "#5C4A32",
-        "accentColor": "#F4A460"
+        "backgroundColor": "#FFFBEA",
+        "textColor": "#7A6A1A",
+        "accentColor": "#F4D235"
       }
     },
     {
@@ -70,9 +70,9 @@
       "subtitle": "Rest in stillness",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E8F4F0",
-        "textColor": "#2D4A44",
-        "accentColor": "#5F9EA0"
+        "backgroundColor": "#E9F8F7",
+        "textColor": "#236562",
+        "accentColor": "#56C9C2"
       }
     },
     {
@@ -81,9 +81,9 @@
       "subtitle": "Be still and breathe",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E6F2F5",
-        "textColor": "#34495E",
-        "accentColor": "#6BB3C9"
+        "backgroundColor": "#E9F8F7",
+        "textColor": "#236562",
+        "accentColor": "#56C9C2"
       }
     },
     {
@@ -92,9 +92,9 @@
       "subtitle": "Count your blessings",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#FDF5E6",
-        "textColor": "#5D4E37",
-        "accentColor": "#D4A574"
+        "backgroundColor": "#FEECED",
+        "textColor": "#7A1518",
+        "accentColor": "#F22A3A"
       }
     },
     {
@@ -103,9 +103,9 @@
       "subtitle": "You are cherished",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#FFF0F3",
-        "textColor": "#5D3A4A",
-        "accentColor": "#E8909C"
+        "backgroundColor": "#FDF0F5",
+        "textColor": "#7A4D61",
+        "accentColor": "#F29AC2"
       }
     },
     {
@@ -114,9 +114,9 @@
       "subtitle": "Appreciate the gifts",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#F5EBE0",
-        "textColor": "#5D4E37",
-        "accentColor": "#C19A6B"
+        "backgroundColor": "#FEECED",
+        "textColor": "#7A1518",
+        "accentColor": "#F22A3A"
       }
     },
     {
@@ -125,9 +125,9 @@
       "subtitle": "Tomorrow holds promise",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E8F5E9",
-        "textColor": "#2E5035",
-        "accentColor": "#66BB6A"
+        "backgroundColor": "#FFFBEA",
+        "textColor": "#7A6A1A",
+        "accentColor": "#F4D235"
       }
     },
     {
@@ -136,9 +136,9 @@
       "subtitle": "Embrace the anticipation",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#FFF3E0",
-        "textColor": "#5D4037",
-        "accentColor": "#FF9800"
+        "backgroundColor": "#FFFBEA",
+        "textColor": "#7A6A1A",
+        "accentColor": "#F4D235"
       }
     },
     {
@@ -147,9 +147,9 @@
       "subtitle": "Create something beautiful",
       "group": "joy",
       "theming": {
-        "backgroundColor": "#E8EAF6",
-        "textColor": "#303F60",
-        "accentColor": "#5C6BC0"
+        "backgroundColor": "#FEECED",
+        "textColor": "#7A1518",
+        "accentColor": "#F22A3A"
       }
     },
     {
@@ -158,9 +158,9 @@
       "subtitle": "Your spirit is lifted",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E0F7FA",
-        "textColor": "#006064",
-        "accentColor": "#00ACC1"
+        "backgroundColor": "#FEECED",
+        "textColor": "#7A1518",
+        "accentColor": "#F22A3A"
       }
     },
     {
@@ -169,9 +169,9 @@
       "subtitle": "Made fresh again",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E8F8F5",
-        "textColor": "#1B4D3E",
-        "accentColor": "#26A69A"
+        "backgroundColor": "#FDF0F5",
+        "textColor": "#7A4D61",
+        "accentColor": "#F29AC2"
       }
     },
     {
@@ -180,9 +180,9 @@
       "subtitle": "Face your fears with courage",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#FBE9E7",
-        "textColor": "#BF360C",
-        "accentColor": "#E64A19"
+        "backgroundColor": "#E6F4F5",
+        "textColor": "#1A5C5E",
+        "accentColor": "#2AA3A6"
       }
     },
     {
@@ -191,9 +191,9 @@
       "subtitle": "Let go and believe",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E3F2FD",
-        "textColor": "#1565C0",
-        "accentColor": "#42A5F5"
+        "backgroundColor": "#E9F8F7",
+        "textColor": "#236562",
+        "accentColor": "#56C9C2"
       }
     },
     {
@@ -202,9 +202,9 @@
       "subtitle": "Wait with grace",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#F3E5F5",
-        "textColor": "#6A1B9A",
-        "accentColor": "#AB47BC"
+        "backgroundColor": "#E9F8F7",
+        "textColor": "#236562",
+        "accentColor": "#56C9C2"
       }
     },
     {
@@ -213,9 +213,9 @@
       "subtitle": "Hold onto belief",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#ECEFF1",
-        "textColor": "#37474F",
-        "accentColor": "#607D8B"
+        "backgroundColor": "#E6F4F5",
+        "textColor": "#1A5C5E",
+        "accentColor": "#2AA3A6"
       }
     },
     {
@@ -224,9 +224,9 @@
       "subtitle": "The weight is lifted",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#E8F5E9",
-        "textColor": "#2E7D32",
-        "accentColor": "#4CAF50"
+        "backgroundColor": "#FDF0F5",
+        "textColor": "#7A4D61",
+        "accentColor": "#F29AC2"
       }
     },
     {
@@ -235,9 +235,9 @@
       "subtitle": "Complete just as you are",
       "group": "peace",
       "theming": {
-        "backgroundColor": "#FFF8E7",
-        "textColor": "#5C4A32",
-        "accentColor": "#D4A373"
+        "backgroundColor": "#FDF0F5",
+        "textColor": "#7A4D61",
+        "accentColor": "#F29AC2"
       }
     },
     {
@@ -246,9 +246,9 @@
       "subtitle": "It's okay to feel this way",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#E8EEF2",
-        "textColor": "#3D4A5C",
-        "accentColor": "#7BA3C4"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -257,9 +257,9 @@
       "subtitle": "You're not alone",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#E8ECF4",
-        "textColor": "#3D4A5C",
-        "accentColor": "#7986CB"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -268,9 +268,9 @@
       "subtitle": "Carrying a weight",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#E5E5EA",
-        "textColor": "#3C3C43",
-        "accentColor": "#8E8E93"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -279,9 +279,9 @@
       "subtitle": "You will be made whole",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#EDEEF0",
-        "textColor": "#454952",
-        "accentColor": "#9CA3AF"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -290,9 +290,9 @@
       "subtitle": "Find your calm",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#F5EEF8",
-        "textColor": "#4A3F55",
-        "accentColor": "#9575CD"
+        "backgroundColor": "#EFEBFC",
+        "textColor": "#3A286E",
+        "accentColor": "#6B4BD9"
       }
     },
     {
@@ -301,9 +301,9 @@
       "subtitle": "Find peace in uncertainty",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#F5EEF8",
-        "textColor": "#4A3F55",
-        "accentColor": "#9B7BB8"
+        "backgroundColor": "#EFEBFC",
+        "textColor": "#3A286E",
+        "accentColor": "#6B4BD9"
       }
     },
     {
@@ -312,9 +312,9 @@
       "subtitle": "Let go of the pressure",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#FFF3E0",
-        "textColor": "#5D4037",
-        "accentColor": "#E67E22"
+        "backgroundColor": "#FEECED",
+        "textColor": "#7A1518",
+        "accentColor": "#F22A3A"
       }
     },
     {
@@ -323,9 +323,9 @@
       "subtitle": "Courage awaits",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#ECEFF1",
-        "textColor": "#37474F",
-        "accentColor": "#78909C"
+        "backgroundColor": "#F1ECFB",
+        "textColor": "#4A366E",
+        "accentColor": "#8A63D2"
       }
     },
     {
@@ -334,9 +334,9 @@
       "subtitle": "Light overcomes darkness",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#E8EAF6",
-        "textColor": "#283593",
-        "accentColor": "#5C6BC0"
+        "backgroundColor": "#EFEBFC",
+        "textColor": "#3A286E",
+        "accentColor": "#6B4BD9"
       }
     },
     {
@@ -345,9 +345,9 @@
       "subtitle": "You are wonderfully made",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#FCE4EC",
-        "textColor": "#880E4F",
-        "accentColor": "#EC407A"
+        "backgroundColor": "#EFEBFC",
+        "textColor": "#3A286E",
+        "accentColor": "#6B4BD9"
       }
     },
     {
@@ -356,9 +356,9 @@
       "subtitle": "This too shall pass",
       "group": "anger",
       "theming": {
-        "backgroundColor": "#FFEBEE",
-        "textColor": "#B71C1C",
-        "accentColor": "#EF5350"
+        "backgroundColor": "#FDEBEC",
+        "textColor": "#7A0815",
+        "accentColor": "#ED0728"
       }
     },
     {
@@ -367,9 +367,9 @@
       "subtitle": "Better things await",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#EFEBE9",
-        "textColor": "#5D4037",
-        "accentColor": "#A1887F"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -378,9 +378,9 @@
       "subtitle": "Let it go with grace",
       "group": "anger",
       "theming": {
-        "backgroundColor": "#FFCDD2",
-        "textColor": "#C62828",
-        "accentColor": "#E53935"
+        "backgroundColor": "#FDEBEC",
+        "textColor": "#7A0815",
+        "accentColor": "#ED0728"
       }
     },
     {
@@ -389,9 +389,9 @@
       "subtitle": "Healing will come",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#F3E5F5",
-        "textColor": "#6A1B9A",
-        "accentColor": "#BA68C8"
+        "backgroundColor": "#E7F0FA",
+        "textColor": "#133F6E",
+        "accentColor": "#1F6FD6"
       }
     },
     {
@@ -400,9 +400,9 @@
       "subtitle": "Don't give up",
       "group": "sadness",
       "theming": {
-        "backgroundColor": "#E0E0E0",
-        "textColor": "#424242",
-        "accentColor": "#757575"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -411,9 +411,9 @@
       "subtitle": "Clarity will come",
       "group": "confusion",
       "theming": {
-        "backgroundColor": "#E8EAF6",
-        "textColor": "#303F9F",
-        "accentColor": "#7986CB"
+        "backgroundColor": "#F1ECFB",
+        "textColor": "#4A366E",
+        "accentColor": "#8A63D2"
       }
     },
     {
@@ -422,9 +422,9 @@
       "subtitle": "Faith grows through questions",
       "group": "confusion",
       "theming": {
-        "backgroundColor": "#ECEFF1",
-        "textColor": "#455A64",
-        "accentColor": "#78909C"
+        "backgroundColor": "#F1ECFB",
+        "textColor": "#4A366E",
+        "accentColor": "#8A63D2"
       }
     },
     {
@@ -433,9 +433,9 @@
       "subtitle": "You will find your way",
       "group": "confusion",
       "theming": {
-        "backgroundColor": "#E0E7ED",
-        "textColor": "#37474F",
-        "accentColor": "#607D8B"
+        "backgroundColor": "#F1ECFB",
+        "textColor": "#4A366E",
+        "accentColor": "#8A63D2"
       }
     },
     {
@@ -444,9 +444,9 @@
       "subtitle": "Grace covers you",
       "group": "shame",
       "theming": {
-        "backgroundColor": "#EFEBE9",
-        "textColor": "#4E342E",
-        "accentColor": "#8D6E63"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -456,8 +456,8 @@
       "group": "shame",
       "theming": {
         "backgroundColor": "#FAFAFA",
-        "textColor": "#424242",
-        "accentColor": "#9E9E9E"
+        "textColor": "#4A4A50",
+        "accentColor": "#D8D9DC"
       }
     },
     {
@@ -466,9 +466,9 @@
       "subtitle": "This moment will pass",
       "group": "shame",
       "theming": {
-        "backgroundColor": "#FDE8E8",
-        "textColor": "#8B4A5E",
-        "accentColor": "#E8A0A0"
+        "backgroundColor": "#FAFAFA",
+        "textColor": "#4A4A50",
+        "accentColor": "#D8D9DC"
       }
     },
     {
@@ -477,9 +477,9 @@
       "subtitle": "The future is open",
       "group": "shame",
       "theming": {
-        "backgroundColor": "#F5F5F5",
-        "textColor": "#616161",
-        "accentColor": "#9E9E9E"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -488,9 +488,9 @@
       "subtitle": "Your path is unique",
       "group": "anger",
       "theming": {
-        "backgroundColor": "#E8F5E9",
-        "textColor": "#2E7D32",
-        "accentColor": "#66BB6A"
+        "backgroundColor": "#FDEBEC",
+        "textColor": "#7A0815",
+        "accentColor": "#ED0728"
       }
     },
     {
@@ -499,9 +499,9 @@
       "subtitle": "Rest is calling",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#E8EAF6",
-        "textColor": "#3F51B5",
-        "accentColor": "#7986CB"
+        "backgroundColor": "#E6F4F5",
+        "textColor": "#1A5C5E",
+        "accentColor": "#2AA3A6"
       }
     },
     {
@@ -510,9 +510,9 @@
       "subtitle": "One step at a time",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#FCE4EC",
-        "textColor": "#AD1457",
-        "accentColor": "#F06292"
+        "backgroundColor": "#EFEBFC",
+        "textColor": "#3A286E",
+        "accentColor": "#6B4BD9"
       }
     },
     {
@@ -521,9 +521,9 @@
       "subtitle": "Time to recharge",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#EFEBE9",
-        "textColor": "#5D4037",
-        "accentColor": "#A1887F"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -532,9 +532,9 @@
       "subtitle": "Let yourself be refilled",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#ECEFF1",
-        "textColor": "#455A64",
-        "accentColor": "#90A4AE"
+        "backgroundColor": "#E6F4F5",
+        "textColor": "#1A5C5E",
+        "accentColor": "#2AA3A6"
       }
     },
     {
@@ -543,9 +543,9 @@
       "subtitle": "Feeling will return",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#F5F5F5",
-        "textColor": "#757575",
-        "accentColor": "#BDBDBD"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -554,9 +554,9 @@
       "subtitle": "Strength is coming",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#E8F5E9",
-        "textColor": "#388E3C",
-        "accentColor": "#81C784"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -565,9 +565,9 @@
       "subtitle": "Find your peace",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#FFF8E1",
-        "textColor": "#F57F17",
-        "accentColor": "#FFB300"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -576,9 +576,9 @@
       "subtitle": "Hope is still there",
       "group": "exhaustion",
       "theming": {
-        "backgroundColor": "#E0E0E0",
-        "textColor": "#424242",
-        "accentColor": "#757575"
+        "backgroundColor": "#F3F4F6",
+        "textColor": "#3E424D",
+        "accentColor": "#B2B6C3"
       }
     },
     {
@@ -587,9 +587,9 @@
       "subtitle": "Freedom is coming",
       "group": "fear",
       "theming": {
-        "backgroundColor": "#E5E7EB",
-        "textColor": "#374151",
-        "accentColor": "#6B7280"
+        "backgroundColor": "#F1ECFB",
+        "textColor": "#4A366E",
+        "accentColor": "#8A63D2"
       }
     }
   ]

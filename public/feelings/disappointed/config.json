@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Romans+8%3A28%3BPsalm+43%3A5%3BProverbs+13%3A12&version=NKJV",
   "theming": {
-    "backgroundColor": "#EFEBE9",
-    "textColor": "#5D4037",
-    "accentColor": "#A1887F"
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#3E424D",
+    "accentColor": "#B2B6C3"
   }
 }
 

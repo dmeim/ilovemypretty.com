@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Philippians+4%3A13%3BIsaiah+40%3A31%3B2+Timothy+1%3A7&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8EAF6",
-    "textColor": "#303F60",
-    "accentColor": "#5C6BC0"
+    "backgroundColor": "#FEECED",
+    "textColor": "#7A1518",
+    "accentColor": "#F22A3A"
   }
 }
 

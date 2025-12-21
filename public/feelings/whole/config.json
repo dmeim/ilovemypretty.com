@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Colossians+2%3A10%3BPsalm+139%3A13-14%3BJames+1%3A4&version=NKJV",
   "theming": {
-    "backgroundColor": "#FFF8E7",
-    "textColor": "#5C4A32",
-    "accentColor": "#D4A373"
+    "backgroundColor": "#FDF0F5",
+    "textColor": "#7A4D61",
+    "accentColor": "#F29AC2"
   }
 }
 

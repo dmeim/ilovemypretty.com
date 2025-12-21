@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Deuteronomy+31%3A6%3BPsalm+68%3A6%3BIsaiah+41%3A10&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8ECF4",
-    "textColor": "#3D4A5C",
-    "accentColor": "#7986CB"
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#3E424D",
+    "accentColor": "#B2B6C3"
   }
 }
 

@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+139%3A14%3BEphesians+2%3A10%3BJeremiah+1%3A5&version=NKJV",
   "theming": {
-    "backgroundColor": "#FCE4EC",
-    "textColor": "#880E4F",
-    "accentColor": "#EC407A"
+    "backgroundColor": "#EFEBFC",
+    "textColor": "#3A286E",
+    "accentColor": "#6B4BD9"
   }
 }
 

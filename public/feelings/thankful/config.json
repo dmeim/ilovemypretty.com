@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+100%3A4%3BPhilippians+4%3A6%3BPsalm+95%3A2&version=NKJV",
   "theming": {
-    "backgroundColor": "#F5EBE0",
-    "textColor": "#5D4E37",
-    "accentColor": "#C19A6B"
+    "backgroundColor": "#FEECED",
+    "textColor": "#7A1518",
+    "accentColor": "#F22A3A"
   }
 }
 

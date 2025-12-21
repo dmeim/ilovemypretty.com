@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Jeremiah+29%3A11%3BRomans+15%3A13%3BPsalm+42%3A11&version=NKJV",
   "theming": {
-    "backgroundColor": "#E0E0E0",
-    "textColor": "#424242",
-    "accentColor": "#757575"
+    "backgroundColor": "#F3F4F6",
+    "textColor": "#3E424D",
+    "accentColor": "#B2B6C3"
   }
 }
 

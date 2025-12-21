@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+61%3A2%3B2+Corinthians+4%3A8-9%3BPsalm+55%3A22&version=NKJV",
   "theming": {
-    "backgroundColor": "#FCE4EC",
-    "textColor": "#AD1457",
-    "accentColor": "#F06292"
+    "backgroundColor": "#EFEBFC",
+    "textColor": "#3A286E",
+    "accentColor": "#6B4BD9"
   }
 }
 

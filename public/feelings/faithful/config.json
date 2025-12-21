@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Hebrews+11%3A1%3B2+Timothy+4%3A7%3BMatthew+17%3A20&version=NKJV",
   "theming": {
-    "backgroundColor": "#ECEFF1",
-    "textColor": "#37474F",
-    "accentColor": "#607D8B"
+    "backgroundColor": "#E6F4F5",
+    "textColor": "#1A5C5E",
+    "accentColor": "#2AA3A6"
   }
 }
 

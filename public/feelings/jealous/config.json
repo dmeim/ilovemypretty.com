@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Galatians+6%3A4%3BProverbs+14%3A30%3BPsalm+37%3A1-4&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8F5E9",
-    "textColor": "#2E7D32",
-    "accentColor": "#66BB6A"
+    "backgroundColor": "#FDEBEC",
+    "textColor": "#7A0815",
+    "accentColor": "#ED0728"
   }
 }
 

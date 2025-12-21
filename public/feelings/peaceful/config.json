@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Isaiah+26%3A3%3BJohn+14%3A27%3BColossians+3%3A15&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8F4F0",
-    "textColor": "#2D4A44",
-    "accentColor": "#5F9EA0"
+    "backgroundColor": "#E9F8F7",
+    "textColor": "#236562",
+    "accentColor": "#56C9C2"
   }
 }
 

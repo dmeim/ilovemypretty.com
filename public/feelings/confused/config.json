@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Proverbs+3%3A5-6%3BJames+1%3A5%3BPsalm+32%3A8&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8EAF6",
-    "textColor": "#303F9F",
-    "accentColor": "#7986CB"
+    "backgroundColor": "#F1ECFB",
+    "textColor": "#4A366E",
+    "accentColor": "#8A63D2"
   }
 }
 

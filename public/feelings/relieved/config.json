@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+55%3A22%3BMatthew+11%3A28%3BPsalm+34%3A4&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8F5E9",
-    "textColor": "#2E7D32",
-    "accentColor": "#4CAF50"
+    "backgroundColor": "#FDF0F5",
+    "textColor": "#7A4D61",
+    "accentColor": "#F29AC2"
   }
 }
 

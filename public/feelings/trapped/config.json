@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+142%3A7%3BJohn+8%3A36%3BIsaiah+61%3A1&version=NKJV",
   "theming": {
-    "backgroundColor": "#E5E7EB",
-    "textColor": "#374151",
-    "accentColor": "#6B7280"
+    "backgroundColor": "#F1ECFB",
+    "textColor": "#4A366E",
+    "accentColor": "#8A63D2"
   }
 }
 

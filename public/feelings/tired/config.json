@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Matthew+11%3A28-30%3BIsaiah+40%3A31%3BPsalm+127%3A2&version=NKJV",
   "theming": {
-    "backgroundColor": "#E8EAF6",
-    "textColor": "#3F51B5",
-    "accentColor": "#7986CB"
+    "backgroundColor": "#E6F4F5",
+    "textColor": "#1A5C5E",
+    "accentColor": "#2AA3A6"
   }
 }
 

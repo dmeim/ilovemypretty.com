@@ -3,9 +3,9 @@
   "verses": "verses.md",
   "bibleGatewayUrl": "https://www.biblegateway.com/passage/?search=Psalm+23%3A1-4%3BIsaiah+30%3A21%3BJeremiah+29%3A13&version=NKJV",
   "theming": {
-    "backgroundColor": "#E0E7ED",
-    "textColor": "#37474F",
-    "accentColor": "#607D8B"
+    "backgroundColor": "#F1ECFB",
+    "textColor": "#4A366E",
+    "accentColor": "#8A63D2"
   }
 }
 
