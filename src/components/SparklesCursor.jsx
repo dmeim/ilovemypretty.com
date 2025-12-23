@@ -56,18 +56,36 @@ function SparklesCursor() {
     createParticle(e.pageX, e.pageY)
   }, [createParticle])
 
+  const handleTouchMove = useCallback((e) => {
+    const now = Date.now()
+    
+    // Throttle particle creation
+    if (now - lastSpawnTime.current < THROTTLE_DELAY) return
+    lastSpawnTime.current = now
+    
+    // Use the first touch point
+    const touch = e.touches[0]
+    if (touch) {
+      createParticle(touch.pageX, touch.pageY)
+    }
+  }, [createParticle])
+
   useEffect(() => {
-    // Only add listener on non-touch devices
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
     
-    if (!isTouchDevice) {
+    if (isTouchDevice) {
+      // Add touch event listeners for mobile
+      document.addEventListener('touchmove', handleTouchMove, { passive: true })
+    } else {
+      // Add mouse event listener for desktop
       document.addEventListener('mousemove', handleMouseMove)
     }
     
     return () => {
       document.removeEventListener('mousemove', handleMouseMove)
+      document.removeEventListener('touchmove', handleTouchMove)
     }
-  }, [handleMouseMove])
+  }, [handleMouseMove, handleTouchMove])
 
   return <div ref={containerRef} className="sparkles-container" aria-hidden="true" />
 }
