@@ -52,8 +52,8 @@ function SparklesCursor() {
     if (now - lastSpawnTime.current < THROTTLE_DELAY) return
     lastSpawnTime.current = now
     
-    // Use pageX/pageY to account for scroll position
-    createParticle(e.pageX, e.pageY)
+    // Use clientX/clientY for viewport-relative coordinates (matches fixed container)
+    createParticle(e.clientX, e.clientY)
   }, [createParticle])
 
   const handleTouchMove = useCallback((e) => {
@@ -63,10 +63,10 @@ function SparklesCursor() {
     if (now - lastSpawnTime.current < THROTTLE_DELAY) return
     lastSpawnTime.current = now
     
-    // Use the first touch point
+    // Use the first touch point with clientX/clientY for viewport-relative coordinates
     const touch = e.touches[0]
     if (touch) {
-      createParticle(touch.pageX, touch.pageY)
+      createParticle(touch.clientX, touch.clientY)
     }
   }, [createParticle])
 
