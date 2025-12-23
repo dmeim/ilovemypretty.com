@@ -1,6 +1,9 @@
 import { useMemo } from 'react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useHeart } from '../contexts/HeartContext'
+import PageTransition from './PageTransition'
+import ThemeToggle from './ThemeToggle'
+import PullToRefresh from './PullToRefresh'
 import './Layout.css'
 
 // Configuration - just change this number!
@@ -62,11 +65,16 @@ function Layout() {
               </li>
             ))}
           </ul>
+          <ThemeToggle />
         </nav>
       </header>
       
       <main className="main">
-        <Outlet />
+        <PullToRefresh>
+          <PageTransition>
+            <Outlet />
+          </PageTransition>
+        </PullToRefresh>
       </main>
       
       <footer className="footer">

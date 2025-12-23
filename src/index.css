@@ -1,5 +1,5 @@
 :root {
-  /* Base colors */
+  /* Base colors - Light mode */
   --color-cream: #FDF8F3;
   --color-blush: #FFB6C1;
   --color-rose: #E8A0A8;
@@ -8,6 +8,14 @@
   --color-lavender: #D4C5E2;
   --color-warm-gray: #8B7E74;
   --color-charcoal: #3D3D3D;
+  
+  /* Card colors */
+  --color-card-bg: rgba(255, 255, 255, 0.85);
+  --color-card-border: rgba(200, 139, 159, 0.15);
+  --color-card-shadow: rgba(200, 139, 159, 0.08);
+  
+  /* Header */
+  --color-header-bg: rgba(253, 248, 243, 0.95);
   
   /* Typography */
   --font-display: 'Cormorant Garamond', Georgia, serif;
@@ -25,6 +33,26 @@
   --transition-fast: 150ms ease;
   --transition-normal: 300ms ease;
   --transition-slow: 500ms ease;
+}
+
+/* Dark mode colors */
+[data-theme="dark"] {
+  --color-cream: #1a1a1f;
+  --color-blush: #ff8fa3;
+  --color-rose: #d4727e;
+  --color-dusty-rose: #b76b82;
+  --color-sage: #7a9470;
+  --color-lavender: #a99bc2;
+  --color-warm-gray: #a8a0a0;
+  --color-charcoal: #e8e4e0;
+  
+  /* Card colors - dark mode */
+  --color-card-bg: rgba(35, 35, 42, 0.9);
+  --color-card-border: rgba(200, 139, 159, 0.2);
+  --color-card-shadow: rgba(0, 0, 0, 0.3);
+  
+  /* Header - dark mode */
+  --color-header-bg: rgba(26, 26, 31, 0.95);
 }
 
 * {
@@ -49,6 +77,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #root {

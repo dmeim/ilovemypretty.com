@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useHeart } from '../contexts/HeartContext'
+import ConfettiBurst from '../components/ConfettiBurst'
 import './Home.css'
 
 function Home() {
@@ -9,7 +10,10 @@ function Home() {
     <div className="home">
       <div className="home-hero">
         <h1 className="home-title">
-          My Pretty {selectedHeart}
+          My Pretty{' '}
+          <ConfettiBurst className="title-heart">
+            {selectedHeart}
+          </ConfettiBurst>
         </h1>
         
         <p className="home-subtitle">

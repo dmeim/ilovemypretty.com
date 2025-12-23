@@ -1,0 +1,28 @@
+.confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.confetti-trigger {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.confetti-trigger:focus {
+  outline: none;
+}
+
+.confetti-trigger:focus-visible {
+  outline: 2px solid var(--color-blush);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+

@@ -1,0 +1,96 @@
+.pull-to-refresh-container {
+  position: relative;
+  min-height: 100%;
+  touch-action: pan-y;
+}
+
+.pull-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.pull-heart {
+  font-size: 2rem;
+  transition: transform 0.1s ease-out;
+  filter: drop-shadow(0 2px 10px rgba(255, 100, 130, 0.4));
+}
+
+.pull-indicator.refreshing .pull-heart {
+  animation: heartExplode 0.3s ease-out forwards;
+}
+
+@keyframes heartExplode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Explosion particles */
+.pull-particle {
+  position: absolute;
+  font-size: 1rem;
+  animation: particleExplode 0.8s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes particleExplode {
+  0% {
+    transform: translate(0, 0) scale(var(--scale)) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: 
+      translate(
+        calc(var(--vx) * 40px), 
+        calc(var(--vy) * 40px + 30px)
+      ) 
+      scale(calc(var(--scale) * 0.5)) 
+      rotate(var(--rotation));
+    opacity: 0;
+  }
+}
+
+.pull-content {
+  transition: transform 0.2s ease-out;
+  will-change: transform;
+}
+
+/* When not pulling, instant reset */
+.pull-content:not([style*="translateY"]) {
+  transition: none;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .pull-heart,
+  .pull-content {
+    transition: none;
+  }
+  
+  .pull-indicator.refreshing .pull-heart {
+    animation: none;
+    opacity: 0;
+  }
+  
+  .pull-particle {
+    display: none;
+  }
+}
+

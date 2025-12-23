@@ -8,12 +8,13 @@
 .home-hero {
   position: relative;
   padding: var(--spacing-lg);
-  background: rgba(255, 255, 255, 0.85);
+  background: var(--color-card-bg);
   border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(200, 139, 159, 0.1);
-  border: 1px solid rgba(200, 139, 159, 0.08);
+  box-shadow: 0 10px 40px var(--color-card-shadow);
+  border: 1px solid var(--color-card-border);
   max-width: 650px;
   margin: 0 auto;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .home-title {
@@ -22,6 +23,44 @@
   font-weight: 600;
   color: var(--color-charcoal);
   margin-bottom: var(--spacing-md);
+}
+
+/* Heartbeat animation for title heart - customizable BPM */
+.title-heart {
+  --heartbeat-bpm: 72; /* Default: resting heart rate */
+  display: inline-block;
+  animation: heartbeat calc(60s / var(--heartbeat-bpm)) ease-in-out infinite;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.title-heart:hover {
+  filter: drop-shadow(0 0 8px rgba(255, 100, 130, 0.6));
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.15);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.1);
+  }
+  56% {
+    transform: scale(1);
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .title-heart {
+    animation: none;
+  }
 }
 
 .home-subtitle {
@@ -35,15 +74,16 @@
 }
 
 .home-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: var(--color-card-bg);
   border-radius: 20px;
   padding: var(--spacing-lg);
-  box-shadow: 0 0px 40px rgba(200, 139, 159, 0.25);
-  border: 1px solid rgba(200, 139, 159, 0.1);
+  box-shadow: 0 0px 40px var(--color-card-shadow);
+  border: 1px solid var(--color-card-border);
   text-align: left;
   line-height: 2;
   max-width: 650px;
   margin: 0 auto;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .home-card p {
