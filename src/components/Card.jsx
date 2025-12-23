@@ -1,11 +1,20 @@
 import { Link } from 'react-router-dom'
+import { useTheme } from '../contexts/ThemeContext'
+import { generateDarkTheming } from '../utils/colorUtils'
 import './Card.css'
 
 function Card({ to, title, subtitle, theming, delay = 0 }) {
-  const cardStyle = theming ? {
-    '--card-bg': theming.backgroundColor,
-    '--card-text': theming.textColor,
-    '--card-accent': theming.accentColor
+  const { isDark } = useTheme()
+  
+  // Generate appropriate theming based on light/dark mode
+  const effectiveTheming = theming 
+    ? (isDark ? generateDarkTheming(theming) : theming)
+    : null
+    
+  const cardStyle = effectiveTheming ? {
+    '--card-bg': effectiveTheming.backgroundColor,
+    '--card-text': effectiveTheming.textColor,
+    '--card-accent': effectiveTheming.accentColor
   } : {}
 
   return (

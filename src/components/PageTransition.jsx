@@ -1,43 +1,29 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import './PageTransition.css'
 
 function PageTransition({ children }) {
   const location = useLocation()
-  const [isAnimating, setIsAnimating] = useState(false)
-  const [shouldRender, setShouldRender] = useState(true)
-  const prevPathRef = useRef(location.pathname)
+  const [isVisible, setIsVisible] = useState(false)
 
+  // Trigger enter animation on mount/route change
   useEffect(() => {
-    // Check if the path actually changed
-    if (prevPathRef.current === location.pathname) {
-      return
-    }
+    // Start hidden, then animate in
+    setIsVisible(false)
     
-    prevPathRef.current = location.pathname
-    
-    // Start exit animation
-    setIsAnimating(true)
-    setShouldRender(false)
-    
-    // After exit animation, trigger enter
-    const exitTimer = setTimeout(() => {
-      setShouldRender(true)
-      
-      // After enter animation completes
-      const enterTimer = setTimeout(() => {
-        setIsAnimating(false)
-      }, 200)
-      
-      return () => clearTimeout(enterTimer)
-    }, 200)
+    // Small delay to ensure CSS transition triggers
+    const timer = requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        setIsVisible(true)
+      })
+    })
 
-    return () => clearTimeout(exitTimer)
+    return () => cancelAnimationFrame(timer)
   }, [location.pathname])
 
   return (
     <div 
-      className={`page-transition ${shouldRender ? 'visible' : 'hidden'}`}
+      className={`page-transition ${isVisible ? 'visible' : 'hidden'}`}
       key={location.pathname}
     >
       {children}

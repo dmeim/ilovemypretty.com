@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import MarkdownRenderer from '../components/MarkdownRenderer'
 import { loadContent, fetchIndex } from '../utils/contentLoader'
+import { generateDarkTheming } from '../utils/colorUtils'
+import { useTheme } from '../contexts/ThemeContext'
 import './FeelingDetail.css'
 
 const BIBLE_VERSIONS = [
@@ -16,6 +18,7 @@ const STORAGE_KEY = 'preferred-bible-version'
 
 function FeelingDetail() {
   const { emotion } = useParams()
+  const { isDark } = useTheme()
   const [content, setContent] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -89,10 +92,15 @@ function FeelingDetail() {
     )
   }
 
-  const pageStyle = content.theming ? {
-    '--page-bg': content.theming.backgroundColor,
-    '--page-text': content.theming.textColor,
-    '--page-accent': content.theming.accentColor,
+  // Generate appropriate theming based on light/dark mode
+  const theming = content.theming 
+    ? (isDark ? generateDarkTheming(content.theming) : content.theming)
+    : null
+    
+  const pageStyle = theming ? {
+    '--page-bg': theming.backgroundColor,
+    '--page-text': theming.textColor,
+    '--page-accent': theming.accentColor,
   } : {}
 
   return (

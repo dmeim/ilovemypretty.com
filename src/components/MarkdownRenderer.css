@@ -59,9 +59,15 @@
   margin: var(--spacing-md) 0;
   font-style: italic;
   color: var(--color-warm-gray);
-  background: rgba(255, 182, 193, 0.1);
+  background: var(--blockquote-bg, rgba(255, 182, 193, 0.1));
   padding: var(--spacing-md);
   border-radius: 0 8px 8px 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Dark mode blockquote */
+[data-theme="dark"] .markdown-content blockquote {
+  --blockquote-bg: rgba(255, 182, 193, 0.08);
 }
 
 .markdown-content ul,

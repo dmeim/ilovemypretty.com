@@ -30,15 +30,16 @@
   font-family: var(--font-body);
   font-size: 1rem;
   color: var(--color-charcoal);
-  background: white;
+  background: var(--color-card-bg);
   border: 2px solid transparent;
   border-radius: 50px;
   box-shadow: 
-    0 2px 8px rgba(196, 139, 159, 0.1),
+    0 2px 8px var(--color-card-shadow),
     0 1px 3px rgba(0, 0, 0, 0.05);
   transition: 
     border-color var(--transition-fast),
-    box-shadow var(--transition-fast);
+    box-shadow var(--transition-fast),
+    background-color 0.3s ease;
   outline: none;
 }
 
