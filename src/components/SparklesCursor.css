@@ -1,0 +1,35 @@
+.sparkles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: visible;
+}
+
+.sparkle-particle {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  animation: sparkle-fall ease-out forwards;
+  transform-origin: center;
+  filter: drop-shadow(0 0 2px var(--color-blush));
+}
+
+@keyframes sparkle-fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateY(50px) translateX(var(--drift, 0px)) scale(0.9) rotate(15deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px) translateX(var(--drift, 0px)) scale(0.5) rotate(30deg);
+  }
+}
+
