@@ -3,7 +3,7 @@ import './SparklesCursor.css'
 
 const PARTICLES = ['❤️', '✨', '💕', '⭐', '💗', '❤️‍🔥', '💌']
 const PARTICLE_LIFETIME = 1000 // ms
-const THROTTLE_DELAY = 20 // ms between particle spawns
+const THROTTLE_DELAY = 10 // ms between particle spawns
 
 function SparklesCursor() {
   const containerRef = useRef(null)
